@@ -1,0 +1,362 @@
+
+²ÎÊýÉèÖÃ...
+
+-----1----Next-----5a0------
+--0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0--
+
+ ¿âÂØ¼ÆÅäÖÃ³É¹¦!!
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,57
+length:57
+ª0åSLSSETREQU:50,0009,02,000034,01,0F0601011259,03
+
+
+UART3:AT+CIPSEND=1,57
+>ª
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+Receive from 433: aa 1d 11 11 3 0 14 d3 75 50 0 14 1 0 0 34 c2 0 5 1 20 1a 16 13 3 13 8 f 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Data receive from 1111 is : 50  0  14  1  0  0  34  c2  0  5  1  20  1a  16  13  3  13  8  f  3 
+Time correct fream receive ok!!
+
+RTC configured by Server....
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,44
+length:44
+ª#Ò©LSSETRESP:50,0009,02,000034,21,03
+
+
+UART3:AT+CIPSEND=1,44
+>ª
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+Receive from 433: aa 1d 11 11 3 0 9 2b 8e 50 0 9 2 0 0 34 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Data receive from 1111 is : 50  0  9  2  0  0  34  0  3 
+SECTION SEND TEST:-50--0--9--2--0--0--34--0--3--0--0--0-
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+Send Over!!
+
+²ÎÊýÉèÖÃ...
+
+-----1----Next-----5a0------
+--0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0--
+²ÎÊýÉèÖÃ...
+
+-----1----Next-----5a0------
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,57
+length:57
+ªåSLSSETREQU:50,0009,02,000034,01,0F0601011259,03
+
+
+UART3:AT+CIPSEND=1,57
+>ª
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+Receive from 433: aa 1d 11 11 3 0 14 a2 f6 50 0 14 1 0 0 34 c2 0 5 1 20 0 34 13 3 13 8 f 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Data receive from 1111 is : 50  0  14  1  0  0  34  c2  0  5  1  20  0  34  13  3  13  8  f  3 
+Time correct fream receive ok!!
+
+RTC configured by Server....
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,44
+length:44
+ªÒ©LSSETRESP:50,0009,02,000034,21,03
+
+
+UART3:AT+CIPSEND=1,44
+>ª
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+Receive from 433: aa 1d 11 11 3 0 9 2b 8e 50 0 9 2 0 0 34 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Data receive from 1111 is : 50  0  9  2  0  0  34  0  3 
+SECTION SEND TEST:-50--0--9--2--0--0--34--0--3--0--0--0-
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+Send Over!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+Send Over!!
+AT+CNMI=1,2,0,0,0
+AT+CMGS="15116924685"
+
+²ÎÊýÉèÖÃ...
+
+-----1----Next-----5a0------
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+
+PB DONE
+AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1

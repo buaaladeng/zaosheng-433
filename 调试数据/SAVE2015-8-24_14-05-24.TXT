@@ -1,0 +1,63 @@
+AT+CMGL="REC UNREAD"
+ERROR
+at+cnmi?
++CNMI: 0,0,0,0,0
+
+OK
+at+cmgl="rec read"
+ERROR
+at+cmgl="rec read"
+ERROR
+at+cmgl=0
+OK
+at+cmgl=1
+OK
+at+cmgl=4
+OK
+at+cnmi=2,1
+OK
+at+cmgs="15116924685"
++CMS ERROR: 304
+AT+CMGF=1
+OK
+at+cmgs="15116924685"
+> 
+> reset
+
++CMS ERROR: 500
+at+cmgs="13121342836"
+> 
+> AT+CNMI=1,2,0,0,0
+> at+cmgs="15116924685"
+> reset
+AT+CNMI=1,2,0,0,0
+OK
+at+cmgs="15116924685"
++CMS ERROR: 304
+AT+CNMI=1,2,0,0,0
+OK
+at+cmgs="15116924685"
++CMS ERROR: 304
+at+cnmi=2,1
+OK
+at+cmgs="15116924685"
++CMS ERROR: 304
+AT+CMGF=1
+OK
+at+cmgs="15116924685"
+> 
+> reset
+
++CMS ERROR: 500
+at+cmgl=4
+ERROR
+at+cmgl=4
+ERROR
+ati
+Manufacturer: YUGE
+Model: CLM920_CD
+Revision: CLM920_CDV1 [Jun 11 2015 11:27:01]
+IMEI: 357941053379024
++GCAP: +CGSM
+
+OK

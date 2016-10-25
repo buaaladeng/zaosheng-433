@@ -1,0 +1,1734 @@
+
+²ÎÊýÉèÖÃ...
+
+-----1----Next-----5a0------
+--0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0--
+
+ ¿âÂØ¼ÆÅäÖÃ³É¹¦!!
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+
+PB DONE
+AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","114.242.167.126",2020
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:
+Connect fail
+
+ERROR
+
++NETCLOSE: 1
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+AT+NETCLOSE
+AT+CPOF
+AT+CSQ
+
+UART3:+STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 6,99
+
+OK
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 6,99
+
+OK
+AT+NETCLOSE
++IP ERROR: Network is already closed
+
+ERROR
+AT+CPOF
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMMAT+NETCLOSE
+AT+CPOF
+AT+CSQ
+
+UART3: 8,99
+
+OK
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 6,99
+
+OK
+AT+NETCLOSE
++IP ERROR: Network is already closed
+
+ERROR
+AT+CPOF
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMMAT+NETCLOSE
+AT+CPOF
+AT+CSQ
+
+UART3: 8,99
+
+OK
+AT+NETCLOSE
++IP ERROR: Network is already closed
+
+ERROR
+AT+CPOF
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+AT+NETCLOSE
+AT+CPOF
+AT+CSQ
+
+UART3:
+ERROR
+AT+CPOF
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+AT+NETCLOSE
+AT+CPOF
+AT+CSQ
+
+UART3:5
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 8,99
+
+OK
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 8,99
+
+OK
+AT+NETCLOSE
++IP ERROR: Network is already closed
+
+ERROR
+AT+CPOF
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMMAT+NETCLOSE
+AT+CPOF
+AT+CSQ
+
+UART3:
+OK
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 8,99
+
+OK
+AT+NETCLOSE
++IP ERROR: Network is already closed
+
+ERROR
+AT+CPOF
+OK
+
+KñÿÿÿH
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMMAT+NETCLOSE
+AT+CPOF
+AT+C
+²ÎÊýÉèÖÃ...
+
+-----1----Next-----5a0------
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 8,99
+
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","114.242.167.126",2020
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:
+Connect fail
+
+ERROR
+
++NETCLOSE: 1
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+AT+NETCLOSE
+AT+CPOF
+AT+CSQ
+
+UART3:+STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 8,99
+
+OK
++CPIN: READY
+
++STIN: 21
+
+SMS DONE
+AT+CSQ
++CSQ: 8,99
+
+OK
+AT+NETCLOSE
++IP ERROR: Network is already closed
+
+ERROR
+AT+CPOF
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMMAT+NETCLOSE
+AT+CPOF
+AT+CSQ
+
+UART3: 8,99
+
+OK
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 8,99
+
+OK
+AT+NETCLOSE
++IP ERROR: Network is already closed
+
+ERROR
+AT+CPOF
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMMAT+NETCLOSE
+AT+CPOF
+AT+CSQ
+
+UART3: 8,99
+
+OK
+AT+NETCLOSE
++IP ERROR: Network is already closed
+
+ERROR
+AT+CPOF
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+AT+NETCLOSE
+AT+CPOF
+AT+CSQ
+
+UART3:
+ERROR
+AT+CPOF
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+AT+NETCLOSE
+AT+CPOF
+AT+CSQ
+
+UART3:5
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 9,99
+
+OK
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 8,99
+
+OK
+AT+NETCLOSE
++IP ERROR: Network is already closed
+
+ERROR
+AT+CPOF
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMMAT+NETCLOSE
+AT+CPOF
+AT+CSQ
+
+UART3:
+OK
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+NETCLOSE
++IP ERROR: Network is already closed
+
+ERROR
+AT+CPOF
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 7,99
+
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 7,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 7,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 7,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","114.242.167.126",2020
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+
+²ÎÊýÉèÖÃ...
+
+-----1----Next-----5a0------
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 7,99
+
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 7,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 7,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 7,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 7,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","114.242.167.126",2020
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:
+Connect fail
+
+ERROR
+
++NETCLOSE: 1
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+AT+NETCLOSE
+AT+CPOF
+AT+CSQ
+
+UART3:+STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 9,99
+
+OK
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 8,99
+
+OK
+AT+NETCLOSE
++IP ERROR: Network is already closed
+
+ERROR
+AT+CPOF
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMMAT+NETCLOSE
+AT+CPOF
+AT+CSQ
+
+UART3: 9,99
+
+OK
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+NETCLOSE
++IP ERROR: Network is already closed
+
+ERROR
+AT+CPOF
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMMAT+NETCLOSE
+AT+CPOF
+AT+CSQ
+
+UART3: 9,99
+
+OK
+AT+NETCLOSE
++IP ERROR: Network is already closed
+
+ERROR
+AT+CPOF
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+AT+NETCLOSE
+AT+CPOF
+AT+CSQ
+
+UART3:
+ERROR
+AT+CPOF
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+AT+NETCLOSE
+AT+CPOF
+AT+CSQ
+
+UART3:5
+
++CPIN: READY
+
+SMS DONE
+AT+CSQ
++CSQ: 6,99
+
+OK
+
++STIN: 21
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+NETCLOSE
++IP ERROR: Network is already closed
+
+ERROR
+AT+CPOF
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMMAT+NETCLOSE
+AT+CPOF
+AT+CSQ
+
+UART3:
+OK
++CPIN: READY
+
+SMS DONE
+AT+CSQ
++CSQ: 6,99
+
+OK
+
++STIN: 21
+AT+NETCLOSE
++IP ERROR: Network is already closed
+
+ERROR
+AT+CPOF
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMMAT+NETCLOSE
+AT+CPOF
+AT+CS
+²ÎÊýÉèÖÃ...
+
+-----1----Next-----5a0------
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 9,99
+
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","114.242.167.126",2020
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:
+Connect fail
+
+ERROR
+
++NETCLOSE: 1
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+AT+NETCLOSE
+AT+CPOF
+AT+CSQ
+
+UART3:+STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 8,99
+
+OK
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 8,99
+
+OK
+AT+NETCLOSE
++IP ERROR: Network is already closed
+
+ERROR
+AT+CPOF
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMMAT+NETCLOSE
+AT+CPOF
+AT+CSQ
+
+UART3: 9,99
+
+OK
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 8,99
+
+OK
+AT+NETCLOSE
++IP ERROR: Network is already closed
+
+ERROR
+AT+CPOF
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMMAT+NETCLOSE
+AT+CPOF
+AT+CSQ
+
+UART3: 9,99
+
+OK
+AT+NETCLOSE
++IP ERROR: Network is already closed
+
+ERROR
+AT+CPOF
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+AT+NETCLOSE
+AT+CPOF
+AT+CSQ
+
+UART3:
+ERROR
+AT+CPOF
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+AT+NETCLOSE
+AT+CPOF
+AT+CSQ
+
+UART3:5
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 6,99
+
+OK
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 6,99
+
+OK
+AT+NETCLOSE
++IP ERROR: Network is already closed
+
+ERROR
+AT+CPOF
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMMAT+NETCLOSE
+AT+CPOF
+AT+CSQ
+
+UART3:
+OK
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 6,99
+
+OK
+AT+NETCLOSE
++IP ERROR: Network is already closed
+
+ERROR
+AT+CPOF
+OK
+
+Dñÿÿÿ
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMMAT+NETCLOSE
+AT+CPOF
+AT+C
+²ÎÊýÉèÖÃ...
+
+-----1----Next-----5a0------
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 8,99
+
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","114.242.167.126",2020
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:
+Connect fail
+
+ERROR
+
++NETCLOSE: 1
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+AT+NETCLOSE
+AT+CPOF
+AT+CSQ
+
+UART3:+STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 9,99
+
+OK
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 8,99
+
+OK
+AT+NETCLOSE
++IP ERROR: Network is already closed
+
+ERROR
+AT+CPOF
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMMAT+NETCLOSE
+AT+CPOF
+AT+CSQ
+
+UART3: 9,99
+
+OK
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+NETCLOSE
++IP ERROR: Network is already closed
+
+ERROR
+AT+CPOF
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMMAT+NETCLOSE
+AT+CPOF
+AT+CSQ
+
+UART3: 9,99
+
+OK
+AT+NETCLOSE
++IP ERROR: Network is already closed
+
+ERROR
+AT+CPOF
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+AT+NETCLOSE
+AT+CPOF
+AT+CSQ
+
+UART3:
+ERROR
+AT+CPOF
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+AT+NETCLOSE
+AT+CPOF
+AT+CSQ
+
+UART3:
+ERROR
+AT+CPOF
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+AT+NETCLOSE
+AT+CPOF
+AT+CSQ
+
+UART3:5
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 9,99
+
+OK
++CPIN: READY
+
+SMS DONE
+AT+CSQ
++CSQ: 0,99
+
+OK
+
++STIN: 21
+AT+NETCLOSE
++IP ERROR: Network is already closed
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","114.242.167.126",2020
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+AT+CSQ
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+
+²ÎÊýÉèÖÃ...
+
+-----1----Next-----5a0------
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+
+PB DONE
+AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","114.242.167.126",2020
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:
+Connect fail
+
+ERROR
+
++NETCLOSE: 1
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+AT+NETCLOSE
+AT+CPOF
+AT+CSQ
+
+UART3:
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 12,99
+
+OK
+PIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+NETCLOSE
++IP ERROR: Network is already closed
+
+ERROR
+AT+CPOF
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMMAT+NETCLOSE
+AT+CPOF
+AT+CSQ
+
+UART3:Q: 12,99
+
+OK
+PIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 12,99
+
+OK
+AT+NETCLOSE
++IP ERROR: Network is already closed
+
+ERROR
+AT+CPOF
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMMAT+NETCLOSE
+AT+CPOF

@@ -1,0 +1,74 @@
+/*
+ * 函数名：FlashTest
+ * 描述  ：Flash测试函数
+ * 输入  ：无
+ * 输出  ：无
+ */
+void HistoryDataUL(void)
+{ 	
+  u32 Addr;
+	u8 i=0;
+  Addr = AddrMapping(0,1,0);  
+	
+	printf("\r\n ===== 0x%x=======,  ==== 0x%x=====\r\n", sizeof(Tx_Buffer), sizeof(*(Tx_Buffer)));
+	/* 2M串行flash W25Q16初始化 */
+	SPI_FLASH_Init();
+	/* Get SPI Flash Device ID */
+	DeviceID = SPI_FLASH_ReadDeviceID();
+  Delay_us(800);                        //有待确认
+	/* Get SPI Flash ID */
+	FlashID = SPI_FLASH_ReadID();
+	printf("\r\n FlashID is 0x%x,  Manufacturer Device ID is 0x%x\r\n", FlashID, DeviceID);
+	
+	/* Check the SPI Flash ID */
+	if (FlashID == sFLASH_ID)  /* #define  sFLASH_ID  0xEF4018 */
+	{	
+		SPI_FLASH_BufferRead(IndexBkp, Addr, 1);
+		SPI_FLASH_BufferRead(IndexBkp, Addr, IndexBkp[0]+1);
+		
+		
+		printf("\r\n 检测到华邦串行flash W25Q128BV !\r\n");
+		/* Erase SPI FLASH Sector to write on */
+		SPI_FLASH_SectorErase(FLASH_SectorToErase);	 
+///* 将发送缓冲区的数据写到flash中 */
+		SPI_FLASH_BufferWrite(Tx_Buffer, FLASH_WriteAddress, BufferSize);		
+		SPI_FLASH_BufferRead(Rx_Buffer, FLASH_ReadAddress, 1);//测试使用
+		if(Rx_Buffer[0]!=255)
+		{
+			/* 将发送缓冲区的数据写到flash中 */
+			SPI_FLASH_BufferWrite(Tx_Buffer, FLASH_WriteAddress+BufferSize*2, BufferSize);
+    }
+		
+		
+//		printf("\r\n 写入的数据为：");             //测试使用
+//		for(i=0;i<BufferSize;i++)               
+//		{
+//		  printf("%d  ", Tx_Buffer[i]);           //测试使用
+//		}                                     
+		
+		/* 将刚刚写入的数据读出来放到接收缓冲区中 */
+		SPI_FLASH_BufferRead(Rx_Buffer, FLASH_ReadAddress, BufferSize*3);
+		printf("\r\n 读出的数据为:");
+		for(i=0;i<BufferSize*3;i++)
+		{
+			printf("%d  ", Rx_Buffer[i]);
+		}
+		/* 检查写入的数据与读出的数据是否相等 */
+		TransferStatus1 = Buffercmp(Tx_Buffer, Rx_Buffer, BufferSize);
+		
+		if( PASSED == TransferStatus1 )
+		{    
+			printf("\r\n 16M串行flash(W25Q128BV)测试成功!\n\r");
+		}
+		else
+		{        
+			printf("\r\n 16M串行flash(W25Q128BV)测试失败!\n\r");
+		}
+	}// if (FlashID == sFLASH_ID)
+	else
+	{    
+		printf("\r\n 获取不到 W25Q128BV ID!\n\r");
+	}
+	SPI_Flash_PowerDown();  
+
+}

@@ -1,0 +1,5200 @@
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 11,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 11,99
+
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 11,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 11,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 11,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+AT+CNMI=2,1,0,0,0
+AT+CMGS="15116924685"
+System running!!
+
+UART3:AT+NETOPEN=,,1
+Network opened
+
+OK
+AT+CIPHEAD=1
+OK
+AT+CIPSRIP=1
+OK
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+Connect ok
+
+OK
+AT+CNMI=2,1,0,0,0
+OK
+AT+CMGS="15116924685"
+> 
+> 
+> 
+
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,57
+length:57
+ª0åSLSSETREQU:50,0009,02,000034,01,0F0601011259,03
+
+
+UART3:AT+CIPSEND=1,57
+>ª
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+Receive from 433: aa 1d 11 11 3 0 14 1b d9 50 0 14 1 0 0 34 c2 0 5 1 20 1c 17 9 2 19 8 f 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Data receive from 1111 is : 50  0  14  1  0  0  34  c2  0  5  1  20  1c  17  9  2  19  8  f  3 
+Time correct fream receive ok!!
+
+RTC configured by Server....
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,44
+length:44
+ª#Ò©LSSETRESP:50,0009,02,000034,21,03
+
+
+UART3:AT+CIPSEND=1,44
+>ª
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+Receive from 433: aa 1d 11 11 3 0 9 2b 8e 50 0 9 2 0 0 34 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Data receive from 1111 is : 50  0  9  2  0  0  34  0  3 
+SECTION SEND TEST:-50--0--9--2--0--0--34--0--3--0--0--0-
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+Send Over!!
+
+UART3:
++CMTI: "ME",15
+
+
+½ÓÊÕÊý¾Ý½âÎö!!
+AT+CMGL="REC UNREAD"
+
+UART3:AT+CMGL="REC UNREAD"
++CMGL: 15,"REC UNREAD","13411370547","","15/08/25,09:23:43+32"
+casic_set_alarm_phone_13411370547
+casic_set_server_port_2020
+
+
+OK
+
+
+OKKK
+
+Receive Short Message is: casic_set_alarm_phone_13411370547
+casic_set_server_port_2020
+
+
+OK
+
+---0----1----3----4----1----1----3----7----0----5----4----7-
+
+ ConfigData.PhoneNum:-- 134--1137-- 547--
+
+Alarm phone number upload success!!
+AT+CNMI=2,1,0,0,0
+AT+CMGS="13411370547"
+Alarm phone number upload success!!
+
+Server port upload success!!:2020
+
+
+OK
+AT+CNMI=2,1,0,0,0
+OK
+AT+CMGS="13411370547"
+> 
+> 
+> 
+
+AT+CNMI=2,1,0,0,0
+AT+CMGS="13411370547"
+Server port upload success!!
+AT+CMGD=,3
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+Send Over!!
+
+UART3:
++CMGS: 230
+
+OK
+
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+µÚ¶þ´Î½ÓÊÕ²éµ½Êý¾Ý!!
+DataCollectCount:1
+µ±Ç°ÒºÎ»¸ß: 2.167 Ã×
+µ±Ç°ÒºÎ»¸ß: 2.167 Ã×
+µ±Ç°ÒºÎ»¸ß: 2.166 Ã×
+µ±Ç°ÒºÎ»¸ß: 2.166 Ã×
+µ±Ç°ÒºÎ»¸ß: 2.166 Ã×
+µ±Ç°ÒºÎ»¸ß: 2.166 Ã×
+µ±Ç°ÒºÎ»¸ß: 2.166 Ã×
+µ±Ç°ÒºÎ»¸ß: 2.166 Ã×
+
+LevelDataCount:0
+--2.166000----2.166000----2.166000----2.166000----2.166000----2.166000----2.167000----2.167000--##2.166000####2.166000####2.166000####2.166000####2.166000####2.166000####2.167000####2.167000##
+**0.001000**
+##
+SoothData:2.166000
+Time: 2015-8-25 09:24:23
+
+²éÑ¯µç³ØµçÁ¿...
+
+µç³ØÏà¶ÔÊ£ÓàÈÝÁ¿Îª£º100%
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,95
+length:95
+ªVÀ>LSLEVDATA:50,001F,01,000034,51,0F0601011259,000105A0,01,01,180919080F,9FBE400A,64,03
+
+
+UART3:AT+CIPSEND=1,95
+>ª
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+Send Over!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,44
+length:44
+ª#LäLSDATOVER:50,0009,02,000034,23,03
+
+
+UART3:AT+CIPSEND=1,44
+>ª
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+Receive from 433: aa 1d 11 11 3 0 d a0 e 50 0 9 2 0 0 34 22 ff ff ff ff 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Data receive from 1111 is : 50  0  9  2  0  0  34  22  ff  ff  ff  ff  3 
+ÒºÎ»Êý¾Ý½ÓÊÕ³É¹¦!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+Send Over!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,44
+length:44
+ª#LSTALKOVER:50,0009,02,000034,00,03
+
+
+UART3:AT+CIPSEND=1,44
+>ª
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+Send Over!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,57
+length:57
+ª0åSLSSETREQU:50,0009,02,000034,01,0F0601011259,03
+
+
+UART3:AT+CIPSEND=1,57
+>ª
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+Receive from 433: aa 1d 11 11 3 0 14 c2 77 50 0 14 1 0 0 34 c2 0 5 1 20 f 19 9 2 19 8 f 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Data receive from 1111 is : 50  0  14  1  0  0  34  c2  0  5  1  20  f  19  9  2  19  8  f  3 
+Time correct fream receive ok!!
+
+RTC configured by Server....
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,44
+length:44
+ª#Ò©LSSETRESP:50,0009,02,000034,21,03
+
+
+UART3:AT+CIPSEND=1,44
+>ª
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+Receive from 433: aa 1d 11 11 3 0 9 2b 8e 50 0 9 2 0 0 34 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Data receive from 1111 is : 50  0  9  2  0  0  34  0  3 
+SECTION SEND TEST:-50--0--9--2--0--0--34--0--3--0--0--0-
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+Send Over!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+Send Over!!
+
+Phone Num Set OK!!  40---   0---3800
+
+-----1----Next-----5a0------
+SLEEP OK!
+1min later wakeup!!
+²ÎÊýÉèÖÃ...
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 11,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 11,99
+
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 11,99
+
+OK
+
++CMTI: "ME",16
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+AT+CMGL="REC UNREAD"
+
+UART3:AT+CMGL="REC UNREAD"
++CMGL: 16,"REC UNREAD","13411370547","","15/08/25,09:26:08+32"
+casic_set_alarm_phone_13411370547
+casic_set_server_port_2020
+
+
+OK
+
+
+OKKK
+
+Receive Short Message is: casic_set_alarm_phone_13411370547
+casic_set_server_port_2020
+
+
+OK
+
+---0----1----3----4----1----1----3----7----0----5----4----7-
+
+ ConfigData.PhoneNum:-- 134--1137-- 547--
+
+Alarm phone number upload success!!
+AT+CNMI=2,1,0,0,0
+AT+CMGS="13411370547"
+Alarm phone number upload success!!
+
+Server port upload success!!:2020
+
+
+OK
+AT+CNMI=2,1,0,0,0
+OK
+AT+CMGS="13411370547"
+> 
+> 
+> 
+
+AT+CNMI=2,1,0,0,0
+AT+CMGS="13411370547"
+Server port upload success!!
+AT+CMGD=,3
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+AT+CSQ
+
+UART3:
++CMGS: 232
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 11,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 11,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 11,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+
+AT+NETOPEN=,,1
+Network opened
+
+OK
+AT+CIPHEAD=1
+OK
+AT+CIPSRIP=1
+OK
+
+
+²ÎÊýÉèÖÃ...
+
+²ÎÊýÉèÖÃ...
+
+-----1----Next-----5a0------
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 10,99
+
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,57
+length:57
+ª0åSLSSETREQU:50,0009,02,000034,01,0F0601011259,03
+
+
+UART3:AT+CIPSEND=1,57
+>ª
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+Receive from 433: aa 1d 11 11 3 0 14 8d 9f 50 0 14 1 0 0 34 c2 0 5 1 20 10 20 9 2 19 8 f 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Data receive from 1111 is : 50  0  14  1  0  0  34  c2  0  5  1  20  10  20  9  2  19  8  f  3 
+Time correct fream receive ok!!
+
+RTC configured by Server....
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,44
+length:44
+ª#Ò©LSSETRESP:50,0009,02,000034,21,03
+
+
+UART3:AT+CIPSEND=1,44
+>ª
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+Receive from 433: aa 1d 11 11 3 0 9 2b 8e 50 0 9 2 0 0 34 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 0 0 0 f9 ff ff ff 5 0 0 0 ff ff ff 0 3 0 0 ff 10 0
+Data receive from 1111 is : 50  0  9  2  0  0  34  0  3 
+SECTION SEND TEST:-50--0--9--2--0--0--34--0--3--0--0--0-
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+Send Over!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+Send Over!!
+AT+CNMI=1,2,0,0,0
+AT+CMGS="15116924685"
+System is Running!!
+DataCollectCount:1
+µ±Ç°ÒºÎ»¸ß: 2.169 Ã×
+µ±Ç°ÒºÎ»¸ß: 2.169 Ã×
+µ±Ç°ÒºÎ»¸ß: 2.169 Ã×
+
+²ÎÊýÉèÖÃ...
+
+-----1----Next-----5a0------
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 12,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 12,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 12,99
+
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 12,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 12,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,57
+length:57
+ª0åSLSSETREQU:50,0009,02,000034,01,0F0601011259,03
+
+
+UART3:AT+CIPSEND=1,57
+>ª
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+Receive from 433: aa 1d 11 11 3 0 14 c 8c 50 0 14 1 0 0 34 c2 0 5 1 20 2c 21 9 2 19 8 f 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Data receive from 1111 is : 50  0  14  1  0  0  34  c2  0  5  1  20  2c  21  9  2  19  8  f  3 
+Time correct fream receive ok!!
+
+RTC configured by Server....
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,44
+length:44
+ª#Ò©LSSETRESP:50,0009,02,000034,21,03
+
+
+UART3:AT+CIPSEND=1,44
+>ª
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+Receive from 433: aa 1d 11 11 3 0 9 2b 8e 50 0 9 2 0 0 34 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 0 0 0 f1 ff ff ff 0 0 0 0 40 0 0 0 5 0 0 0 f9 ff ff ff 0 0 0 0 0 0 0 0 ff 0 0 0 10 0
+Data receive from 1111 is : 50  0  9  2  0  0  34  0  3 
+SECTION SEND TEST:-50--0--9--2--0--0--34--0--3--0--0--0-
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+Send Over!!
+
+²ÎÊýÉèÖÃ...
+
+-----1----Next-----5a0------
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","114.242.167.126",2020
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,57
+length:57
+ªåSLSSETREQU:50,0009,02,000034,01,0F0601011259,03
+
+
+UART3:AT+CIPSEND=1,57
++IP ERROR: Connection is not created
+
+ERROR
+
+
+½ÓÊÕÊý¾Ý½âÎö!!
+AT+CIPOPEN=1,"TCP","114.242.167.126",2020
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+Send Over!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,57
+length:57
+ªåSLSSETREQU:50,0009,02,000034,01,0F0601011259,03
+
+
+UART3:AT+CIPSEND=1,57
++IP ERROR: Connection is not created
+
+ERROR
+
+
+½ÓÊÕÊý¾Ý½âÎö!!
+AT+CIPOPEN=1,"TCP","114.242.167.126",2020
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+Send Over!!
+
+²ÎÊýÉèÖÃ...
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
++STIN: 21
+
+SMS DONE
+AT+CSQ
++CSQ: 11,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 11,99
+
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 11,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 11,99
+
+OK
+
++CMT: "13411370547","","15/08/25,09:48:47+32"
+casic_set_alarm_phone_13411370547
+casic_set_server_port_2020
+
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 11,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+AT+CNMI=2,1,0,0,0
+AT+CMGS="15116924685"
+System running!!
+
+UART3:AT+NETOPEN=,,1
+Network opened
+
+OK
+AT+CIPHEAD=1
+OK
+AT+CIPSRIP=1
+OK
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+Connect ok
+
+OK
+AT+CNMI=2,1,0,0,0
+OK
+AT+CMGS="15116924685"
+> 
+> 
+> 
+
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,57
+length:57
+ª0åSLSSETREQU:50,0009,02,000034,01,0F0601011259,03
+
+
+UART3:AT+CIPSEND=1,57
+>ª
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+Receive from 433: aa 1d 11 11 3 0 14 99 de 50 0 14 1 0 0 34 c2 0 5 1 20 13 31 9 2 19 8 f 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Data receive from 1111 is : 50  0  14  1  0  0  34  c2  0  5  1  20  13  31  9  2  19  8  f  3 
+Time correct fream receive ok!!
+
+RTC configured by Server....
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,44
+length:44
+ªÒ©LSSETRESP:50,0009,02,000034,21,03
+
+
+UART3:AT+CIPSEND=1,44
+>ª
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+Receive from 433: aa 1d 11 11 3 0 9 2b 8e 50 0 9 2 0 0 34 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Data receive from 1111 is : 50  0  9  2  0  0  34  0  3 
+SECTION SEND TEST:-50--0--9--2--0--0--34--0--3--0--0--0-
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+Send Over!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+Send Over!!
+DataCollectCount:1
+µ±Ç°ÒºÎ»¸ß: 2.169 Ã×
+µ±Ç°ÒºÎ»¸ß: 2.168 Ã×
+µ±Ç°ÒºÎ»¸ß: 2.168 Ã×
+µ±Ç°ÒºÎ»¸ß: 2.167 Ã×
+µ±Ç°ÒºÎ»¸ß: 2.167 Ã×
+µ±Ç°ÒºÎ»¸ß: 2.167 Ã×
+µ±Ç°ÒºÎ»¸ß: 2.168 Ã×
+µ±Ç°ÒºÎ»¸ß: 2.169 Ã×
+
+LevelDataCount:0
+--2.169000----2.168000----2.167000----2.167000----2.167000----2.168000----2.168000----2.169000--##2.167000####2.167000####2.167000####2.168000####2.168000####2.168000####2.169000####2.169000##
+**0.002000**
+##
+SoothData:2.167000
+Time: 2015-8-25 09:50:06
+
+²éÑ¯µç³ØµçÁ¿...
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,95
+length:95
+ª´¬LSLEVDATA:50,001F,01,000034,51,0F0601011259,000105A0,01,01,320919080F,B021400A,64,03
+
+
+UART3:AT+CIPSEND=1,95
+>ª
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+Send Over!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,44
+length:44
+ª#LäLSDATOVER:50,0009,02,000034,23,03
+
+
+UART3:AT+CIPSEND=1,44
+>ª
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+Receive from 433: aa 1d 11 11 3 0 d a0 e 50 0 9 2 0 0 34 22 ff ff ff ff 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Data receive from 1111 is : 50  0  9  2  0  0  34  22  ff  ff  ff  ff  3 
+ÒºÎ»Êý¾Ý½ÓÊÕ³É¹¦!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+Send Over!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,44
+length:44
+ª#LSTALKOVER:50,0009,02,000034,00,03
+
+
+UART3:AT+CIPSEND=1,44
+>ª
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+Send Over!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,57
+length:57
+ªåSLSSETREQU:50,0009,02,000034,01,0F0601011259,03
+
+
+UART3:AT+CIPSEND=1,57
+>ª
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+Receive from 433: aa 1d 11 11 3 0 14 8c 7d 50 0 14 1 0 0 34 c2 0 5 1 20 1 33 9 2 19 8 f 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Data receive from 1111 is : 50  0  14  1  0  0  34  c2  0  5  1  20  1  33  9  2  19  8  f  3 
+Time correct fream receive ok!!
+
+RTC configured by Server....
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,44
+length:44
+ªÒ©LSSETRESP:50,0009,02,000034,21,03
+
+
+UART3:AT+CIPSEND=1,44
+>ª
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+Receive from 433: aa 1d 11 11 3 0 9 2b 8e 50 0 9 2 0 0 34 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Data receive from 1111 is : 50  0  9  2  0  0  34  0  3 
+SECTION SEND TEST:-50--0--9--2--0--0--34--0--3--0--0--0-
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+Send Over!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+Send Over!!
+
+Phone Num Set OK!!  40---   0---3800
+
+-----1----Next-----5a0------
+SLEEP OK!
+1min later wakeup!!
+²ÎÊýÉèÖÃ...
+
+²ÎÊýÉèÖÃ...
+--0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0--
+
+ ¿âÂØ¼ÆÅäÖÃ³É¹¦!!
+
+²ÎÊýÉèÖÃ...
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","119.254.103.80",000A
+AT+CNMI=2,1,0,0,0
+AT+CMGS="15116924685"
+System running!!
+
+UART3:AT+NETOPEN=,,1
+Network opened
+
+OK
+AT+CIPHEAD=1
+OK
+AT+CIPSRIP=1
+OK
+AT+CIPOPEN=1,"TCP","119.254.103.80",000A
++IP ERROR: Invalid parameter
+
+ERROR
+
++CMTI: "ME",17
+AT+CNMI=2,1,0,0,0
+OK
+AT+CMGS="15116924685"
+> 
+> 
+> 
+
+
+½ÓÊÕÊý¾Ý½âÎö!!
+AT+CMGL="REC UNREAD"
+
+UART3:AT+CMGL="REC UNREAD"
++CMGL: 17,"REC UNREAD","13411370547","","15/08/25,09:55:15+32"
+casic_set_alarm_phone_13411370547
+casic_set_server_port_2020
+
+
+OK
+
+
+OKKK
+
+Receive Short Message is: casic_set_alarm_phone_13411370547
+casic_set_server_port_2020
+
+
+OK
+
+---0----1----3----4----1----1----3----7----0----5----4----7-
+
+ ConfigData.PhoneNum:-- 134--1137-- 547--
+
+Alarm phone number upload success!!
+AT+CNMI=2,1,0,0,0
+AT+CMGS="13411370547"
+Alarm phone number upload success!!
+
+Server port upload success!!:2020
+
+
+OK
+AT+CNMI=2,1,0,0,0
+OK
+AT+CMGS="13411370547"
+> 
+> 
+> 
+
+AT+CNMI=2,1,0,0,0
+AT+CMGS="13411370547"
+Server port upload success!!
+AT+CMGD=,3
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,57
+length:57
+ª0åSLSSETREQU:50,0009,02,000034,01,0F0601011259,03
+
+
+UART3:AT+CIPSEND=1,57
++IP ERROR: Connection is not created
+
+ERROR
+
+
+½ÓÊÕÊý¾Ý½âÎö!!
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+
+
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+Send Over!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,57
+length:57
+ª0åSLSSETREQU:50,0009,02,000034,01,0F0601011259,03
+
+
+UART3:AT+CIPSEND=1,57
+>ª
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+Receive from 433: aa 1d 11 11 3 0 14 eb 55 50 0 14 1 0 0 34 c2 0 5 1 20 2b 39 9 2 19 8 f 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Data receive from 1111 is : 50  0  14  1  0  0  34  c2  0  5  1  20  2b  39  9  2  19  8  f  3 
+Time correct fream receive ok!!
+
+RTC configured by Server....
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,44
+length:44
+ª#Ò©LSSETRESP:50,0009,02,000034,21,03
+
+
+UART3:AT+CIPSEND=1,44
+>ª
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+Receive from 433: aa 1d 11 11 3 0 9 2b 8e 50 0 9 2 0 0 34 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Data receive from 1111 is : 50  0  9  2  0  0  34  0  3 
+SECTION SEND TEST:-50--0--9--2--0--0--34--0--3--0--0--0-
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+Send Over!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+Send Over!!
+
+UART3:
++STIN: 21
+
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+µÚ¶þ´Î½ÓÊÕ²éµ½Êý¾Ý!!
+DataCollectCount:1
+µ±Ç°ÒºÎ»¸ß: 2.169 Ã×
+µ±Ç°ÒºÎ»¸ß: 2.167 Ã×
+µ±Ç°ÒºÎ»¸ß: 2.167 Ã×
+µ±Ç°ÒºÎ»¸ß: 2.166 Ã×
+µ±Ç°ÒºÎ»¸ß: 2.166 Ã×
+µ±Ç°ÒºÎ»¸ß: 2.166 Ã×
+µ±Ç°ÒºÎ»¸ß: 2.167 Ã×
+µ±Ç°ÒºÎ»¸ß: 2.167 Ã×
+
+LevelDataCount:0
+--2.167000----2.167000----2.166000----2.166000----2.166000----2.167000----2.167000----2.169000--##2.166000####2.166000####2.166000####2.167000####2.167000####2.167000####2.167000####2.169000##
+**0.003000**
+##
+SoothData:2.166000
+AT+CNMI=2,1,0,0,0
+AT+CMGS="13411370547"
+Warning!!!Current level is beyond the threshold!!Current level: 2.166 meters
+Time: 2015-8-25 09:58:32
+
+²éÑ¯µç³ØµçÁ¿...
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,95
+length:95
+ªV{LSLEVDATA:50,001F,01,000034,51,0F0601011259,000105A0,01,01,3A0919080F,9FBE400A,64,03
+
+
+UART3:AT+CIPSEND=1,95
+>ª
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+Send Over!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,44
+length:44
+ª#LäLSDATOVER:50,0009,02,000034,23,03
+
+
+UART3:AT+CIPSEND=1,44
+>ª
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+Receive from 433: aa 1d 11 11 3 0 d a0 e 50 0 9 2 0 0 34 22 ff ff ff ff 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Data receive from 1111 is : 50  0  9  2  0  0  34  22  ff  ff  ff  ff  3 
+ÒºÎ»Êý¾Ý½ÓÊÕ³É¹¦!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+Send Over!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,44
+length:44
+ª#LSTALKOVER:50,0009,02,000034,00,03
+
+
+UART3:AT+CIPSEND=1,44
+>ª
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+Send Over!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,57
+length:57
+ª0åSLSSETREQU:50,0009,02,000034,01,0F0601011259,03
+
+
+UART3:AT+CIPSEND=1,57
+>ª
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+Receive from 433: aa 1d 11 11 3 0 14 fe f6 50 0 14 1 0 0 34 c2 0 5 1 20 39 3b 9 2 19 8 f 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Data receive from 1111 is : 50  0  14  1  0  0  34  c2  0  5  1  20  39  3b  9  2  19  8  f  3 
+Time correct fream receive ok!!
+
+RTC configured by Server....
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,44
+length:44
+ª#Ò©LSSETRESP:50,0009,02,000034,21,03
+
+
+UART3:AT+CIPSEND=1,44
+>ª
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+Receive from 433: aa 1d 11 11 3 0 9 2b 8e 50 0 9 2 0 0 34 0 3 d a 2b 53 54 49 4e 3a 20 32 31 d a 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Data receive from 1111 is : 50  0  9  2  0  0  34  0  3 
+SECTION SEND TEST:-50--0--9--2--0--0--34--0--3--d--a--2b-
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+Send Over!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+Send Over!!
+
+Phone Num Set OK!!  40---   0---3800
+
+-----1----Next-----5a0------
+SLEEP OK!
+1min later wakeup!!
+²ÎÊýÉèÖÃ...
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","119.254.103.80",000A
+AT+CNMI=2,1,0,0,0
+AT+CMGS="15116924685"
+System running!!
+
+UART3:AT+NETOPEN=,,1
+Network opened
+
+OK
+AT+CIPHEAD=1
+OK
+AT+CIPSRIP=1
+OK
+AT+CIPOPEN=1,"TCP","119.254.103.80",000A
++IP ERROR: Invalid parameter
+
+ERROR
+AT+CNMI=2,1,0,0,0
+OK
+AT+CMGS="15116924685"
+> 
+> 
+> 
+
+
+½ÓÊÕÊý¾Ý½âÎö!!
+AT+NETCLOSE
+AT+CPOF
+
+ConfigData_Init start...
+
+²ÎÊýÉèÖÃ...
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
++CMTI: "ME",18
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+AT+CMGL="REC UNREAD"
+
+UART3:AT+CMGL="REC UNREAD"
++CMGL: 18,"REC UNREAD","13411370547","","15/08/25,10:11:31+32"
+casic_set_alarm_phone_13411370547
+casic_set_server_port_2020
+
+
+OK
+
+
+OKKK
+
+Receive Short Message is: casic_set_alarm_phone_13411370547
+casic_set_server_port_2020
+
+
+OK
+
+---0----1----3----4----1----1----3----7----0----5----4----7-
+
+ ConfigData.PhoneNum:-- 134--1137-- 547--
+
+Alarm phone number upload success!!
+AT+CNMI=2,1,0,0,0
+AT+CMGS="13411370547"
+Alarm phone number upload success!!
+
+Server port upload success!!:2020
+
+
+OK
+AT+CNMI=2,1,0,0,0
+OK
+AT+CMGS="13411370547"
+> 
+> 
+> 
+
+AT+CNMI=2,1,0,0,0
+AT+CMGS="13411370547"
+Server port upload success!!
+AT+CMGD=,3
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:
++CMGS: 241
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+
+AT+NETOPEN=,,1
+Network opened
+
+OK
+AT+CIPHEAD=1
+OK
+AT+CIPSRIP=1
+OK
+
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+
+PB DONE
+AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","119.254.103.80",000A
+AT+CNMI=2,1,0,0,0
+AT+CMGS="15116924685"
+System running!!
+
+UART3:AT+NETOPEN=,,1
+Network opened
+
+OK
+AT+CIPHEAD=1
+OK
+AT+CIPSRIP=1
+OK
+AT+CIPOPEN=1,"TCP","119.254.103.80",000A
++IP ERROR: Invalid parameter
+
+ERROR
+AT+CNMI=2,1,0,0,0
+OK
+AT+CMGS="15116924685"
+> 
+> 
+> 
+
++CMTI: "ME",19
+
+
+½ÓÊÕÊý¾Ý½âÎö!!
+AT+CMGL="REC UNREAD"
+
+UART3:AT+CMGL="REC UNREAD"
++CMGL: 19,"REC UNREAD","13411370547","","15/08/25,10:13:49+32"
+casic_set_alarm_phone_13411370547
+casic_set_server_port_2020
+
+
+OK
+
+
+OKKK
+
+Receive Short Message is: casic_set_alarm_phone_13411370547
+casic_set_server_port_2020
+
+
+OK
+
+---0----1----3----4----1----1----3----7----0----5----4----7-
+
+ ConfigData.PhoneNum:-- 134--1137-- 547--
+
+Alarm phone number upload success!!
+AT+CNMI=2,1,0,0,0
+AT+CMGS="13411370547"
+Alarm phone number upload success!!
+
+Server port upload success!!:2020
+
+
+OK
+AT+CNMI=2,1,0,0,0
+OK
+AT+CMGS="13411370547"
+> 
+> 
+> 
+
+AT+CNMI=2,1,0,0,0
+AT+CMGS="13411370547"
+Server port upload success!!
+AT+CMGD=,3
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,57
+length:57
+ª0åSLSSETREQU:50,0009,02,000034,01,0F0601011259,03
+
+
+UART3:AT+CIPSEND=1,57
++IP ERROR: Connection is not created
+
+ERROR
+
+
+½ÓÊÕÊý¾Ý½âÎö!!
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+
+
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+Send Over!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,57
+length:57
+ª0åSLSSETREQU:50,0009,02,000034,01,0F0601011259,03
+
+
+UART3:AT+CIPSEND=1,57
+>ª
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+Receive from 433: aa 1d 11 11 3 0 14 25 90 50 0 14 1 0 0 34 c2 0 5 1 20 1d e a 2 19 8 f 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Data receive from 1111 is : 50  0  14  1  0  0  34  c2  0  5  1  20  1d  e  a  2  19  8  f  3 
+Time correct fream receive ok!!
+
+RTC configured by Server....
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,44
+length:44
+ª#Ò©LSSETRESP:50,0009,02,000034,21,03
+
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+AT+CMGL="REC UNREAD"
+
+UART3:AT+CMGL="REC UNREAD"
++CMGL: 20,"REC UNREAD","13411370547","","15/08/25,10:20:10+32"
+casic_set_alarm_phone_13411370547
+casic_set_server_port_2020
+
+
+OK
+
+
+OKKK
+
+Receive Short Message is: casic_set_alarm_phone_13411370547
+casic_set_server_port_2020
+
+
+OK
+
+---0----1----3----4----1----1----3----7----0----5----4----7-
+
+ ConfigData.PhoneNum:-- 134--1137-- 547--
+
+Alarm phone number upload success!!
+AT+CNMI=2,1,0,0,0
+AT+CMGS="13411370547"
+Alarm phone number upload success!!
+
+Server port upload success!!:2020
+
+
+OK
+AT+CNMI=2,1,0,0,0
+OK
+AT+CMGS="13411370547"
+> 
+> 
+> 
+
+AT+CNMI=2,1,0,0,0
+AT+CMGS="13411370547"
+Server port upload success!!
+AT+CMGD=,3
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+
+AT+NETOPEN=,,1
+Network opened
+
+OK
+AT+CIPHEAD=1
+OK
+AT+CIPSRIP=1
+OK
+
+
+ConfigData_Init start...
+
+²ÎÊýÉèÖÃ...
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+
+PB DONE
+AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+AT+CNMI=2,1,0,0,0
+AT+CMGS="15116924685"
+System running!!
+
+UART3:AT+NETOPEN=,,1
+Network opened
+
+OK
+AT+CIPHEAD=1
+OK
+AT+CIPSRIP=1
+OK
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+Connect ok
+
+OK
+AT+CNMI=2,1,0,0,0
+OK
+AT+CMGS="15116924685"
+> 
+> 
+> 
+
++CMTI: "ME",21
+
+
+½ÓÊÕÊý¾Ý½âÎö!!
+AT+CMGL="REC UNREAD"
+
+UART3:
++CMGS: 248
+
+OK
+
+AT+CMGD=,3
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,57
+length:57
+ª0åSLSSETREQU:50,0009,02,000034,01,0F0601011259,03
+
+
+UART3:AT+CIPSEND=1,57
+>ª
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+Receive from 433: aa 1d 11 11 3 0 14 24 d8 50 0 14 1 0 0 34 c2 0 5 1 20 c 17 a 2 19 8 f 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Data receive from 1111 is : 50  0  14  1  0  0  34  c2  0  5  1  20  c  17  a  2  19  8  f  3 
+Time correct fream receive ok!!
+
+RTC configured by Server....
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+AT+CMGL="REC UNREAD"
+
+UART3:set_server_port_2020
+
+
+OK
+0,"REC UNREAD","13411370547","","15/08/25,10:23:36+32"
+casic_set_alarm_phone_13411370547
+casic_set_server_port_2020
+
++CMGL: 21,"REC UNREAD","13411370547","","15/08/25,10:22:55+32"
+casic_set_alarm_phone_13411370547
+casic_
+
+OKKK
+
+Receive Short Message is: casic_set_alarm_phone_13411370547
+casic_set_server_port_2020
+
++CMGL: 21,"REC UNREAD","13411370547","","15/08/25,10:22:55+32"
+casic_set_alarm_phone_13411370547
+casic_
+---0----1----3----4----1----1----3----7----0----5----4----7-
+
+ ConfigData.PhoneNum:-- 134--1137-- 547--
+
+Alarm phone number upload success!!
+AT+CNMI=2,1,0,0,0
+AT+CMGS="13411370547"
+Alarm phone number upload success!!
+
+Server port upload success!!:2020
+
++CMGL: 21,"REC UNREAD","13411370547","","15/08/25,10:22:55+32"
+casic_set_alarm_phone_13411370547
+casic_
+AT+CNMI=2,1,0,0,0
+AT+CMGS="13411370547"
+Server port upload success!!
+AT+CMGD=,3
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:
++IPCLOSE: 1,2,119.254.103.80,2020
+
++NETCLOSE: 1
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+
+AT+NETOPEN=,,1
+Network opened
+
+OK
+AT+CIPHEAD=1
+OK
+AT+CIPSRIP=1
+OK
+
+
+ConfigData_Init start...
+
+²ÎÊýÉèÖÃ...
+
+ConfigData_Init start...
+
+²ÎÊýÉèÖÃ...
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 8,99
+
+OK
+
++CMTI: "ME",1
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+AT+CMGL="REC UNREAD"
+
+UART3:AT+CMGL="REC UNREAD"
++CMGL: 1,"REC UNREAD","13411370547","","15/08/25,10:27:28+32"
+casic_set_alarm_phone_13411370547
+casic_set_server_port_2020
+
+
+OK
+
+
+OKKK
+
+Receive Short Message is: casic_set_alarm_phone_13411370547
+casic_set_server_port_2020
+
+
+OK
+
+PB DONE
+
+---0----1----3----4----1----1----3----7----0----5----4----7-
+
+ ConfigData.PhoneNum:-- 134--1137-- 547--
+
+Alarm phone number upload success!!
+AT+CNMI=2,1,0,0,0
+AT+CMGS="13411370547"
+Alarm phone number upload success!!
+
+Server port upload success!!:2020
+
+
+OK
+
+PB DONE
+AT+CNMI=2,1,0,0,0
+OK
+AT+CMGS="13411370547"
+> 
+> 
+> 
+
+AT+CNMI=2,1,0,0,0
+AT+CMGS="13411370547"
+Server port upload success!!
+AT+CMGD=,3
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:
++CMGS: 252
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+
+AT+NETOPEN=,,1
+Network opened
+
+OK
+AT+CIPHEAD=1
+OK
+AT+CIPSRIP=1
+OK
+
+
+ConfigData_Init start...
+
+²ÎÊýÉèÖÃ...
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+AT+CNMI=2,1,0,0,0
+AT+CMGS="15116924685"
+System running!!
+
+UART3:AT+CNMI=2,1,0,0,0
+OK
+AT+CMGS="15116924685"
+> 
+> 
+> 
+
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,57
+length:57
+ª0åSLSSETREQU:50,0009,02,000034,01,0F0601011259,03
+
+
+UART3:AT+CIPSEND=1,57
+>ª
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+Receive from 433: aa 1d 11 11 3 0 14 40 45 50 0 14 1 0 0 34 c2 0 5 1 20 37 29 a 2 19 8 f 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Data receive from 1111 is : 50  0  14  1  0  0  34  c2  0  5  1  20  37  29  a  2  19  8  f  3 
+Time correct fream receive ok!!
+
+RTC configured by Server....
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,44
+length:44
+ªÒ©LSSETRESP:50,0009,02,000034,21,03
+
+
+UART3:AT+CIPSEND=1,44
+>ª
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+Receive from 433: aa 1d 11 11 3 0 9 2b 8e 50 0 9 2 0 0 34 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Data receive from 1111 is : 50  0  9  2  0  0  34  0  3 
+SECTION SEND TEST:-50--0--9--2--0--0--34--0--3--0--0--0-
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+Send Over!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+Send Over!!
+
+ConfigData_Init start...
+
+²ÎÊýÉèÖÃ...
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+AT+CNMI=2,1,0,0,0
+AT+CMGS="15116924685"
+System running!!
+
+UART3:AT+CNMI=2,1,0,0,0
+OK
+AT+CMGS="15116924685"
+> 
+> 
+> 
+
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,57
+length:57
+ª0åSLSSETREQU:50,0009,02,000034,01,0F0601011259,03
+
+
+UART3:AT+CIPSEND=1,57
+>ª
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+Receive from 433: aa 1d 11 11 3 0 14 94 6e 50 0 14 1 0 0 34 c2 0 5 1 20 25 32 a 2 19 8 f 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Data receive from 1111 is : 50  0  14  1  0  0  34  c2  0  5  1  20  25  32  a  2  19  8  f  3 
+Time correct fream receive ok!!
+
+RTC configured by Server....
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,44
+length:44
+ªÒ©LSSETRESP:50,0009,02,000034,21,03
+
+
+UART3:AT+CIPSEND=1,44
+>ª
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+Receive from 433: aa 1d 11 11 3 0 9 2b 8e 50 0 9 2 0 0 34 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Data receive from 1111 is : 50  0  9  2  0  0  34  0  3 
+SECTION SEND TEST:-50--0--9--2--0--0--34--0--3--0--0--0-
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+Send Over!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+Send Over!!
+DataCollectCount:1
+µ±Ç°ÒºÎ»¸ß: 2.170 Ã×
+µ±Ç°ÒºÎ»¸ß: 2.170 Ã×
+µ±Ç°ÒºÎ»¸ß: 2.170 Ã×
+µ±Ç°ÒºÎ»¸ß: 2.169 Ã×
+µ±Ç°ÒºÎ»¸ß: 2.168 Ã×
+µ±Ç°ÒºÎ»¸ß: 2.168 Ã×
+µ±Ç°ÒºÎ»¸ß: 2.168 Ã×
+µ±Ç°ÒºÎ»¸ß: 2.168 Ã×
+
+LevelDataCount:0
+--2.168000----2.168000----2.168000----2.168000----2.169000----2.170000----2.170000----2.170000--##2.168000####2.168000####2.168000####2.168000####2.169000####2.170000####2.170000####2.170000##
+**0.002000**
+##
+SoothData:2.168000
+Time: 2015-8-25 10:51:24
+
+²éÑ¯µç³ØµçÁ¿...
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,95
+length:95
+ªLSLEVDATA:50,001F,01,000034,51,0F0601011259,000105A0,01,01,330A19080F,C083400A,64,03
+
+
+UART3:AT+CIPSEND=1,95
+>ª
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+Send Over!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,44
+length:44
+ªäLSDATOVER:50,0009,02,000034,23,03
+
+
+UART3:AT+CIPSEND=1,44
+>ª
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+Receive from 433: aa 1d 11 11 3 0 d a0 e 50 0 9 2 0 0 34 22 ff ff ff ff 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Data receive from 1111 is : 50  0  9  2  0  0  34  22  ff  ff  ff  ff  3 
+ÒºÎ»Êý¾Ý½ÓÊÕ³É¹¦!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+Send Over!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+AT+CMGL="REC UNREAD"
+
+UART3:et_server_port_2020
+
++CMGL: 4,"REC UNREAD","13411370547","","15/08/25,10:51:52+32"
+casic_set_alarm_phone_13411370547
+casic_set_server_port_2020
+
+
+OK
+ 3,"REC UNREAD","13411370547","","15/08/25,10:50:11+32"
+casic_set_alarm_phone_13411370547
+casic_s
+
+OKKK
+
+Receive Short Message is: casic_set_alarm_phone_13411370547
+casic_set_server_port_2020
+
+
+OK
+ 3,"REC UNREAD","13411370547","","15/08/25,10:50:11+32"
+casic_set_alarm_phone_13411370547
+casic_s
+---0----1----3----4----1----1----3----7----0----5----4----7-
+
+ ConfigData.PhoneNum:-- 134--1137-- 547--
+
+Alarm phone number upload success!!
+AT+CNMI=2,1,0,0,0
+AT+CMGS="13411370547"
+Alarm phone number upload success!!
+
+Server port upload success!!:2020
+
+
+OK
+
++STIN: 21
+AT+CNMI=2,1,0,0,0
+OK
+AT+CMGS="13411370547"
+> 
+> 
+> 
+phone_13411370547
+casic_s
+AT+CNMI=2,1,0,0,0
+AT+CMGS="13411370547"
+Server port upload success!!
+AT+CMGD=,3
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:
++IPCLOSE: 1,2,119.254.103.80,2020
+
++NETCLOSE: 1
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 10,99
+
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+
+AT+NETOPEN=,,1
+Network opened
+
+OK
+AT+CIPHEAD=1
+OK
+AT+CIPSRIP=1
+OK
+
+
+Warnning!! Hard Fault Occured
+Í
+ConfigData_Init start...
+
+²ÎÊýÉèÖÃ...
+AT+CSQ
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+AT+CNMI=2,1,0,0,0
+AT+CMGS="15116924685"
+System running!!
+
+UART3:AT+CNMI=2,1,0,0,0
+OK
+AT+CMGS="15116924685"
+> 
+> 
+> 
+
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,57
+length:57
+ª0åSLSSETREQU:50,0009,02,000034,01,0F0601011259,03
+
+
+UART3:AT+CIPSEND=1,57
+>ª
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+Receive from 433: aa 1d 11 11 3 0 14 d3 ac 50 0 14 1 0 0 34 c2 0 5 1 20 38 1 b 2 19 8 f 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Data receive from 1111 is : 50  0  14  1  0  0  34  c2  0  5  1  20  38  1  b  2  19  8  f  3 
+Time correct fream receive ok!!
+
+RTC configured by Server....
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,44
+length:44
+ª#Ò©LSSETRESP:50,0009,02,000034,21,03
+
+
+UART3:AT+CIPSEND=1,44
+>ª
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+Receive from 433: aa 1d 11 11 3 0 9 2b 8e 50 0 9 2 0 0 34 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Data receive from 1111 is : 50  0  9  2  0  0  34  0  3 
+SECTION SEND TEST:-50--0--9--2--0--0--34--0--3--0--0--0-
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+Send Over!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+
+Send Over!!
+
+ConfigData_Init start...
+
+²ÎÊýÉèÖÃ...
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 10,99
+
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 10,99
+
+OK
+
++CMTI: "ME",1
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+AT+CMGL="REC UNREAD"
+
+UART3:et_server_port_2020
+
+
+OK
+ 0,"REC UNREAD","13411370547","","15/08/25,10:59:46+32"
+casic_set_alarm_phone_13411370547
+casic_set_server_port_2020
+
++CMGL: 1,"REC UNREAD","13411370547","","15/08/25,11:15:57+32"
+casic_set_alarm_phone_13411370547
+casic_s
+
+OKKK
+
+Receive Short Message is: casic_set_alarm_phone_13411370547
+casic_set_server_port_2020
+
++CMGL: 1,"REC UNREAD","13411370547","","15/08/25,11:15:57+32"
+casic_set_alarm_phone_13411370547
+casic_s
+---0----1----3----4----1----1----3----7----0----5----4----7-
+
+ ConfigData.PhoneNum:-- 134--1137-- 547--
+
+Alarm phone number upload success!!
+AT+CNMI=2,1,0,0,0
+AT+CMGS="13411370547"
+Alarm phone number upload success!!
+
+Server port upload success!!:2020
+
++CMGL: 1,"REC UNREAD","13411370547","","15/08/25,11:15:57+32"
+casic_set_alarm_phone_13411370547
+casic_s
+AT+CNMI=2,1,0,0,0
+AT+CMGS="13411370547"
+Server port upload success!!
+AT+CMGD=,3
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:
++CMGS: 2
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+
+AT+NETOPEN=,,1
+Network opened
+
+OK
+AT+CIPHEAD=1
+OK
+AT+CIPSRIP=1
+OK
+
+
+Warnning!! Hard Fault Occured
+
+Warn
+ConfigData_Init start...
+
+²ÎÊýÉèÖÃ...
+
+ConfigData_Init start...
+
+²ÎÊýÉèÖÃ...
+--0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0--
+
+ ¿âÂØ¼ÆÅäÖÃ³É¹¦!!
+
+ConfigData_Init start...
+
+²ÎÊýÉèÖÃ...
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
++CMTI: "ME",2
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+AT+CMGL="REC UNREAD"
+
+UART3:AT+CMGL="REC UNREAD"
++CMGL: 2,"REC UNREAD","13411370547","","15/08/25,11:19:40+32"
+casic_set_alarm_phone_13411370547
+casic_set_server_port_2020
+
+
+OK
+
+
+OKKK
+
+Receive Short Message is: casic_set_alarm_phone_13411370547
+casic_set_server_port_2020
+
+
+OK
+
+---0----1----3----4----1----1----3----7----0----5----4----7-
+
+ ConfigData.PhoneNum:-- 134--1137-- 547--
+
+Alarm phone number upload success!!
+AT+CNMI=2,1,0,0,0
+AT+CMGS="13411370547"
+Alarm phone number upload success!!
+
+Server port upload success!!:2020
+
+
+OK
+AT+CNMI=2,1,0,0,0
+OK
+AT+CMGS="13411370547"
+> 
+> 
+> 
+
+AT+CNMI=2,1,0,0,0
+AT+CMGS="13411370547"
+Server port upload success!!
+AT+CMGD=,3
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+
+AT+NETOPEN=,,1
+Network opened
+
+OK
+AT+CIPHEAD=1
+OK
+AT+CIPSRIP=1
+OK
+
+
+Warnning!! Hard Fault Occured
+
+Warnning!!à
+ConfigData_Init start...
+
+²ÎÊýÉèÖÃ...
+
+ConfigData_Init start...
+
+²ÎÊýÉèÖÃ...
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
++CMTI: "ME",0
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+AT+CMGL="REC UNREAD"
+
+UART3:AT+CMGL="REC UNREAD"
++CMGL: 0,"REC UNREAD","13411370547","","15/08/25,11:22:21+32"
+casic_set_alarm_phone_13411370547
+casic_set_server_port_2020
+
+
+OK
+
+
+OKKK
+
+Receive Short Message is: casic_set_alarm_phone_13411370547
+casic_set_server_port_2020
+
+
+OK
+
+---0----1----3----4----1----1----3----7----0----5----4----7-
+
+ ConfigData.PhoneNum:-- 134--1137-- 547--
+
+Alarm phone number upload success!!
+AT+CNMI=2,1,0,0,0
+AT+CMGS="13411370547"
+Alarm phone number upload success!!
+
+Server port upload success!!:2020
+
+
+OK
+AT+CNMI=2,1,0,0,0
+OK
+AT+CMGS="13411370547"
+> 
+> 
+> 
+
+AT+CNMI=2,1,0,0,0
+AT+CMGS="13411370547"
+Server port upload success!!
+AT+CMGD=,3
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+
+AT+NETOPEN=,,1
+Network opened
+
+OK
+AT+CIPHEAD=1
+OK
+AT+CIPSRIP=1
+OK
+
+
+Warnning!! Hard Fault Occureô
+ConfigData_Init start...
+
+²ÎÊýÉèÖÃ...
+
+ConfigData_Init start...
+
+²ÎÊýÉèÖÃ...
+--0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0--
+
+ ¿âÂØ¼ÆÅäÖÃ³É¹¦!!
+
+ConfigData_Init start...
+
+²ÎÊýÉèÖÃ...
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 11,99
+
+OK
+
++CMTI: "ME",0
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+AT+CMGL="REC UNREAD"
+
+UART3:AT+CMGL="REC UNREAD"
++CMGL: 0,"REC UNREAD","13411370547","","15/08/25,11:24:45+32"
+casic_set_alarm_phone_13411370547
+casic_set_server_port_2020
+
+
+OK
+
+
+OKKK
+
+Receive Short Message is: casic_set_alarm_phone_13411370547
+casic_set_server_port_2020
+
+
+OK
+
+---0----1----3----4----1----1----3----7----0----5----4----7-
+
+ ConfigData.PhoneNum:-- 134--1137-- 547--
+
+Alarm phone number upload success!!
+AT+CNMI=2,1,0,0,0
+AT+CMGS="13411370547"
+Alarm phone number upload success!!
+
+Server port upload success!!:2020
+
+
+OK
+AT+CNMI=2,1,0,0,0
+OK
+AT+CMGS="13411370547"
+> 
+> 
+> 
+
+AT+CNMI=2,1,0,0,0
+AT+CMGS="13411370547"
+Server port upload success!!
+AT+CMGD=,3
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 11,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 11,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 11,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 11,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 11,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+
+AT+NETOPEN=,,1
+Network opened
+
+OK
+AT+CIPHEAD=1
+OK
+AT+CIPSRIP=1
+OK
+
+
+Warnn
+ConfigData_Init start...
+
+²ÎÊýÉèÖÃ...
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+
+PB DONE
+AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+ConfigData_Init start...
+
+²ÎÊýÉèÖÃ...
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+
++CMTI: "ME",0
+AT+CSQ
++CSQ: 12,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+AT+CMGL="REC UNREAD"
+
+UART3:AT+CMGL="REC UNREAD"
++CMGL: 0,"REC UNREAD","13411370547","","15/08/25,11:37:57+32"
+casic_set_alarm_phone_13411370547
+casic_set_server_port_2020
+
+
+OK
+
+
+OKKK
+
+Receive Short Message is: casic_set_alarm_phone_13411370547
+casic_set_server_port_2020
+
+
+OK
+
+---0----1----3----4----1----1----3----7----0----5----4----7-
+
+ ConfigData.PhoneNum:-- 134--1137-- 547--
+
+Alarm phone number upload success!!
+AT+CNMI=2,1,0,0,0
+AT+CMGS="13411370547"
+Alarm phone number upload success!!
+
+Server port upload success!!:2020
+
+
+OK
+AT+CNMI=2,1,0,0,0
+OK
+AT+CMGS="13411370547"
+> 
+> 
+> 
+
+AT+CNMI=2,1,0,0,0
+AT+CMGS="13411370547"
+Server port upload success!!
+AT+CMGD=,3
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:
++CMGS: 7
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 12,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 12,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 12,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 12,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 12,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+
+AT+NETOPEN=,,1
+Network opened
+
+OK
+AT+CIPHEAD=1
+OK
+AT+CIPSRIP=1
+OK
+
+
+Warnning!! Hard Fault Occurý
+ConfigData_Init start...
+
+²ÎÊýÉèÖÃ...
+
+ConfigData_Init start...
+
+²ÎÊýÉèÖÃ...
+--0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0--
+
+ ¿âÂØ¼ÆÅäÖÃ³É¹¦!!
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 7,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 7,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 7,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 7,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 7,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊý¾Ý½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+AT+CNMI=2,1,0,0,0
+AT+CMGS="15116924685"
+System running!!
+
+UART3:AT+CNMI=2,1,0,0,0
+OK
+AT+CMGS="15116924685"
+> 
+> 
+> 
+
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+½ÓÊÕÊý¾Ý½âÎöÍê³É!!
+AT+CIPSEND=1,57
+length:57
+ª0åSLSSETREQU:50,0009,02,000034,01,0F0601011259,03
+
+
+UART3:AT+CIPSEND=1,57
+>ª
+
+½ÓÊÕÊý¾Ý½âÎö!!
+
+Receive from 433: aa 1d 11 11 3 0 14 ae 84 50 0 14 1 0 0 34 c2 0 5 1 20 32 29 b 2 19 8 f 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Data receive from 1111 is : 50  0  14  1  0  0  34  c2  0  5  1  20  32  29  b  2  19  8  f  3 
+Time correct fream receive ok!!
+
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occured
+
+Warnning!! Hard
+Warnning!! Hard Fault Occure

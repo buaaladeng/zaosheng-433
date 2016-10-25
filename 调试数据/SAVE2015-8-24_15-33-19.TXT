@@ -1,0 +1,471 @@
+
+²ÎÊıÉèÖÃ...
+--0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0--
+
+ ¿âÂØ¼ÆÅäÖÃ³É¹¦!!
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 12,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊı¾İ½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊı¾İ½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 12,99
+
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊı¾İ½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊı¾İ½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 12,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊı¾İ½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊı¾İ½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 12,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊı¾İ½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊı¾İ½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 12,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊı¾İ½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊı¾İ½âÎöÍê³É!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","119.254.103.80",000A
+AT+CNMI=2,1,0,0,0
+AT+CMGS="15116924685"
+System running!!
+
+UART3:AT+NETOPEN=,,1
+Network opened
+
+OK
+AT+CIPHEAD=1
+OK
+AT+CIPSRIP=1
+OK
+AT+CIPOPEN=1,"TCP","119.254.103.80",000A
++IP ERROR: Invalid parameter
+
+ERROR
+
++CMTI: "ME",0
+AT+CNMI=2,1,0,0,0
+OK
+AT+CMGS="15116924685"
+> 
+> 
+> 
+
+
+½ÓÊÕÊı¾İ½âÎö!!
+AT+CMGL="REC UNREAD"
+
+UART3:AT+CMGL="REC UNREAD"
++CMGL: 0,"REC UNREAD","13411370547","","15/08/24,15:24:03+32"
+casic_set_alarm_phone_13411370547
+
+OK
+
+
+OKKK
+
+Receive Short Message is: casic_set_alarm_phone_13411370547
+
+OK
+
+---0----1----3----4----1----1----3----7----0----5----4----7-
+
+Alarm phone number upload success!!
+AT+CNMI=2,1,0,0,0
+AT+CMGS="13411370547"
+Alarm phone number upload success!!
+AT+CMGD=,3
+
+½ÓÊÕÊı¾İ½âÎöÍê³É!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+½ÓÊÕÊı¾İ½âÎö!!
+
+½ÓÊÕÊı¾İ½âÎöÍê³É!!
+AT+CIPSEND=1,57
+length:57
+ªåSLSSETREQU:50,0009,02,000034,01,0F0601011259,03
+
+
+UART3:AT+CIPSEND=1,57
++IP ERROR: Connection is not created
+
+ERROR
+
+
+½ÓÊÕÊı¾İ½âÎö!!
+AT+CIPOPEN=1,"TCP","119.254.103.80",000A
+
+½ÓÊÕÊı¾İ½âÎöÍê³É!!
+
+Send Over!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+²ÎÊıÉèÖÃ...
+--0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0--
+
+ ¿âÂØ¼ÆÅäÖÃ³É¹¦!!
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊı¾İ½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊı¾İ½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 10,99
+
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊı¾İ½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊı¾İ½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊı¾İ½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊı¾İ½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 10,99
+
+OK
+
++CMTI: "ME",1
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊı¾İ½âÎö!!
+AT+CMGL="REC UNREAD"
+
+UART3:AT+CMGL="REC UNREAD"
++CMGL: 1,"REC UNREAD","13411370547","","15/08/24,15:26:43+32"
+casic_set_alarm_phone_13411370547
+
+OK
+
+
+OKKK
+
+Receive Short Message is: casic_set_alarm_phone_13411370547
+
+OK
+
+---0----1----3----4----1----1----3----7----0----5----4----7-
+
+Alarm phone number upload success!!
+AT+CNMI=2,1,0,0,0
+AT+CMGS="13411370547"
+Alarm phone number upload success!!
+AT+CMGD=,3
+
+½ÓÊÕÊı¾İ½âÎöÍê³É!!
+AT+CSQ
+AT+CSQ
+AT+CSQ
+
+UART3:
++CMGS: 159
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊı¾İ½âÎö!!
+
+½ÓÊÕÊı¾İ½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊı¾İ½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊı¾İ½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊı¾İ½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊı¾İ½âÎöÍê³É!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","119.254.103.80",000A
+AT+CNMI=2,1,0,0,0
+AT+CMGS="13411370547"
+System running!!
+
+UART3:AT+NETOPEN=,,1
+Network opened
+
+OK
+AT+CIPHEAD=1
+OK
+AT+CIPSRIP=1
+OK
+AT+CIPOPEN=1,"TCP","119.254.103.80",000A
++IP ERROR: Invalid parameter
+
+ERROR
+AT+CNMI=2,1,0,0,0
+OK
+AT+CMGS="13411370547"
+> 
+> 
+> 
+
+
+½ÓÊÕÊı¾İ½âÎö!!
+AT+NETCLOSE
+AT+CPOF
+
+²ÎÊıÉèÖÃ...
+--0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0--
+
+ ¿âÂØ¼ÆÅäÖÃ³É¹¦!!
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊı¾İ½âÎö!!
+AT+CMGL="REC UNREAD"
+
+UART3:AT+CMGL="REC UNREAD"
++CMGL: 2,"REC UNREAD","13411370547","","15/08/24,15:30:05+32"
+casic_set_alarm_phone_13411370547
+casic_set_server_port_2020
+
+
+OK
+
+PB DONE
+
+
+OKKK
+
+Receive Short Message is: casic_set_alarm_phone_13411370547
+casic_set_server_port_2020
+
+
+OK
+
+PB DONE
+
+---0----1----3----4----1----1----3----7----0----5----4----7-
+
+Alarm phone number upload success!!
+AT+CNMI=2,1,0,0,0
+AT+CMGS="13411370547"
+Alarm phone number upload success!!
+
+Input Server port ERROR !!
+
+Input server port not correct!
+Please check and retry.
+AT+CNMI=2,1,0,0,0
+AT+CMGS="13411370547"
+Input server port not correct!Please check and retry.
+AT+CMGD=,3
+
+½ÓÊÕÊı¾İ½âÎöÍê³É!!
+AT+CSQ
+
+UART3:
+OK
+AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊı¾İ½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊı¾İ½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊı¾İ½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊı¾İ½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊı¾İ½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊı¾İ½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊı¾İ½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊı¾İ½âÎöÍê³É!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 10,99
+
+OK
+
+
+GPRS Net Searching...
+
+½ÓÊÕÊı¾İ½âÎö!!
+LLLLLLLLLLMMMMMM
+½ÓÊÕÊı¾İ½âÎöÍê³É!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1

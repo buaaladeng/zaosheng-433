@@ -1,0 +1,145 @@
+AT+CMGL="REC UNREAD"
+OK
+AT+CMGL="REC UNREAD"
+OK
+AT+CMGL="REC READ"
++CMGL: 0,"REC READ","+8615952401540","","15/08/18,16:42:11+32"
+reset
+
+
++CMGL: 1,"REC READ","+8613121342836","","15/08/18,17:12:19+32"
+ok
+
+OK
+
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CMGL="ALL"
++CMGL: 0,"REC READ","+8615952401540","","15/08/18,16:42:11+32"
+reset
+
+
++CMGL: 1,"REC READ","+8613121342836","","15/08/18,17:12:19+32"
+ok
+
+OK
+
+PB DONE
+AT+CMGL="ALL"
++CMGL: 0,"REC READ","+8615952401540","","15/08/18,16:42:11+32"
+reset
+
+
++CMGL: 1,"REC READ","+8613121342836","","15/08/18,17:12:19+32"
+ok
+
+OK
+AT+CNMI=1,2,0,0,0
+OK
+
++CMT: "+8615116924685","","15/08/23,10:46:29+32"
+casic_set_alarm_phone_13121342836  
+casic_set_alarm_threshold_3.00
+casic_set_server_ip_114.242.167.126
+casic_set_server_port_2020
+
+
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CMGL="ALL"
++CMGL: 0,"REC READ","+8615952401540","","15/08/18,16:42:11+32"
+reset
+
+
++CMGL: 1,"REC READ","+8613121342836","","15/08/18,17:12:19+32"
+ok
+
+OK
+
+PB DONE
+AT+CMGL="ALL"
++CMGL: 0,"REC READ","+8615952401540","","15/08/18,16:42:11+32"
+reset
+
+
++CMGL: 1,"REC READ","+8613121342836","","15/08/18,17:12:19+32"
+ok
+
+OK
+at+cnmi=2,1
+OK
+
++CMTI: "ME",2
+
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+
+PB DONE
+AT+CMGL="REC UNREAD"
++CMGL: 2,"REC UNREAD","+8615116924685","","15/08/23,10:47:28+32"
+casic_set_alarm_phone_13121342836  
+casic_set_alarm_threshold_3.00
+casic_set_server_ip_114.242.167.126
+casic_set_server_port_2020
+
+
+OK
+AT+CMGL="REC UNREAD"
+OK
+AT+CMGL="ALL"
++CMGL: 0,"REC READ","+8615952401540","","15/08/18,16:42:11+32"
+reset
+
+
++CMGL: 1,"REC READ","+8613121342836","","15/08/18,17:12:19+32"
+ok
++CMGL: 2,"REC READ","+8615116924685","","15/08/23,10:47:28+32"
+casic_set_alarm_phone_13121342836  
+casic_set_alarm_threshold_3.00
+casic_set_server_ip_114.242.167.126
+casic_set_server_port_2020
+
+
+OK
+AT+CMGL="ALL"
++CMGL: 0,"REC READ","+8615952401540","","15/08/18,16:42:11+32"
+reset
+
+
++CMGL: 1,"REC READ","+8613121342836","","15/08/18,17:12:19+32"
+ok
++CMGL: 2,"REC READ","+8615116924685","","15/08/23,10:47:28+32"
+casic_set_alarm_phone_13121342836  
+casic_set_alarm_threshold_3.00
+casic_set_server_ip_114.242.167.126
+casic_set_server_port_2020
+
+
+OK

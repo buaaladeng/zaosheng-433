@@ -1,0 +1,2728 @@
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+
+UART3:AT+NETOPEN=,,1
+Network opened
+
+OK
+AT+CIPHEAD=1
+OK
+AT+CIPSRIP=1
+OK
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+Connect ok
+
+OK
+
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,57
+length:57
+™0ÂSLSSETREQU:50,0009,02,000034,01,0F0601011259,03
+
+
+UART3:AT+CIPSEND=1,57
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Receive from 433: aa 1d 11 11 3 0 14 1f 7a 50 0 14 1 0 0 34 c2 0 5 1 20 3b 2d 8 0 17 8 f 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Data receive from 1111 is : 50  0  14  1  0  0  34  c2  0  5  1  20  3b  2d  8  0  17  8  f  3 
+Time correct fream receive ok!!
+
+RTC configured by Server....
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,44
+length:44
+™#“©LSSETRESP:50,0009,02,000034,21,03
+
+
+UART3:AT+CIPSEND=1,44
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Receive from 433: aa 1d 11 11 3 0 9 2b 8e 50 0 9 2 0 0 34 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 f9 ff ff ff e 0 0 0 0 0 0 0 0 0 0 0 f9 0
+Data receive from 1111 is : 50  0  9  2  0  0  34  0  3 
+SECTION SEND TEST:-50--0--9--2--0--0--34--0--3--0--0--0-
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+Send Over!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+Send Over!!
+AT+CNMI=1,2,0,0,0
+AT+CMGS="15116924685"
+System is Running!!
+DataCollectCount:1
+µ±«∞“∫Œª∏ﬂ: 2.170 √◊
+µ±«∞“∫Œª∏ﬂ: 2.170 √◊
+µ±«∞“∫Œª∏ﬂ: 2.170 √◊
+µ±«∞“∫Œª∏ﬂ: 2.170 √◊
+µ±«∞“∫Œª∏ﬂ: 2.170 √◊
+µ±«∞“∫Œª∏ﬂ: 2.171 √◊
+µ±«∞“∫Œª∏ﬂ: 2.172 √◊
+µ±«∞“∫Œª∏ﬂ: 2.172 √◊
+
+LevelDataCount:0
+--2.172000----2.172000----2.171000----2.170000----2.170000----2.170000----2.170000----2.170000--##2.170000####2.170000####2.170000####2.170000####2.170000####2.171000####2.172000####2.172000##
+**0.002000**
+##
+SoothData:2.170000
+Time: 2015-8-23 08:46:48
+
+≤È—ØµÁ≥ÿµÁ¡ø...
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,95
+length:95
+™V”¸LSLEVDATA:50,001F,01,000034,51,0F0601011259,000105A0,01,01,2E0817080F,E148400A,64,03
+
+
+UART3:AT+CIPSEND=1,95
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+Send Over!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+≤Œ ˝…Ë÷√...
+
+-----1----Next-----5a0------
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+
+UART3:AT+NETOPEN=,,1
+Network opened
+
+OK
+AT+CIPHEAD=1
+OK
+AT+CIPSRIP=1
+OK
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+Connect ok
+
+OK
+
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,57
+length:57
+™0ÂSLSSETREQU:50,0009,02,000034,01,0F0601011259,03
+
+
+UART3:AT+CIPSEND=1,57
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Receive from 433: aa 1d 11 11 3 0 14 13 98 50 0 14 1 0 0 34 c2 0 5 1 20 3a 2f 8 0 17 8 f 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Data receive from 1111 is : 50  0  14  1  0  0  34  c2  0  5  1  20  3a  2f  8  0  17  8  f  3 
+Time correct fream receive ok!!
+
+RTC configured by Server....
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,44
+length:44
+™#“©LSSETRESP:50,0009,02,000034,21,03
+
+
+UART3:AT+CIPSEND=1,44
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Receive from 433: aa 1d 11 11 3 0 9 2b 8e 50 0 9 2 0 0 34 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 0 0 0 f9 ff ff ff f 0 0 0 0 0 0 0 7 0 0 0 10 0
+Data receive from 1111 is : 50  0  9  2  0  0  34  0  3 
+SECTION SEND TEST:-50--0--9--2--0--0--34--0--3--0--0--0-
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+Send Over!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+Send Over!!
+AT+CNMI=1,2,0,0,0
+AT+CMGS="15116924685"
+
+≤Œ ˝…Ë÷√...
+
+-----1----Next-----5a0------
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
++STIN: 21
+
+SMS DONE
+
+PB DONE
+AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+
+UART3:AT+NETOPEN=,,1
+Network opened
+
+OK
+AT+CIPHEAD=1
+OK
+AT+CIPSRIP=1
+OK
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+Connect ok
+
+OK
+
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,57
+length:57
+™0ÂSLSSETREQU:50,0009,02,000034,01,0F0601011259,03
+
+
+UART3:AT+CIPSEND=1,57
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Receive from 433: aa 1d 11 11 3 0 14 75 e4 50 0 14 1 0 0 34 c2 0 5 1 20 10 31 8 0 17 8 f 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Data receive from 1111 is : 50  0  14  1  0  0  34  c2  0  5  1  20  10  31  8  0  17  8  f  3 
+Time correct fream receive ok!!
+
+RTC configured by Server....
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,44
+length:44
+™#“©LSSETRESP:50,0009,02,000034,21,03
+
+
+UART3:AT+CIPSEND=1,44
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Receive from 433: aa 1d 11 11 3 0 9 2b 8e 50 0 9 2 0 0 34 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 0 0 0 f9 ff ff ff 0 0 0 0 0 0 0 0 1a 0 0 ff 10 0
+Data receive from 1111 is : 50  0  9  2  0  0  34  0  3 
+SECTION SEND TEST:-50--0--9--2--0--0--34--0--3--0--0--0-
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+Send Over!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+Send Over!!
+AT+CNMI=1,2,0,0,0
+AT+CMGS="15116924685"
+
+≤Œ ˝…Ë÷√...
+
+-----1----Next-----5a0------
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+
+PB DONE
+AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+
+UART3:AT+NETOPEN=,,1
+Network opened
+
+OK
+AT+CIPHEAD=1
+OK
+AT+CIPSRIP=1
+OK
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+Connect ok
+
+OK
+
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,57
+length:57
+™0ÂSLSSETREQU:50,0009,02,000034,01,0F0601011259,03
+
+
+UART3:AT+CIPSEND=1,57
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Receive from 433: aa 1d 11 11 3 0 14 ad 15 50 0 14 1 0 0 34 c2 0 5 1 20 21 32 8 0 17 8 f 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Data receive from 1111 is : 50  0  14  1  0  0  34  c2  0  5  1  20  21  32  8  0  17  8  f  3 
+Time correct fream receive ok!!
+
+RTC configured by Server....
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,44
+length:44
+™#“©LSSETRESP:50,0009,02,000034,21,03
+
+
+UART3:AT+CIPSEND=1,44
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Receive from 433: aa 1d 11 11 3 0 9 2b 8e 50 0 9 2 0 0 34 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 0 0 0 f1 ff ff ff 0 0 0 0 40 0 0 0 6 0 0 0 f9 ff ff ff 0 0 0 0 0 0 0 0 0 0 0 0 f9 0
+Data receive from 1111 is : 50  0  9  2  0  0  34  0  3 
+SECTION SEND TEST:-50--0--9--2--0--0--34--0--3--0--0--0-
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+Send Over!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+Send Over!!
+AT+CNMI=1,2,0,0,0
+AT+CMGS="15116924685"
+
+≤Œ ˝…Ë÷√...
+
+-----1----Next-----5a0------
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+
+PB DONE
+AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+
+≤Œ ˝…Ë÷√...
+
+-----1----Next-----5a0------
+--0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0----0--
+
+ ø‚¬ÿº∆≈‰÷√≥…π¶!!
+
+≤Œ ˝…Ë÷√...
+
+-----1----Next-----5a0------
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
++STIN: 21
+
+SMS DONE
+AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+
+UART3:AT+NETOPEN=,,1
+Network opened
+
+OK
+AT+CIPHEAD=1
+OK
+AT+CIPSRIP=1
+OK
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+Connect ok
+
+OK
+
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,57
+length:57
+™LSSETREQU:50,0009,02,000034,01,0F0601011259,03
+
+
+UART3:AT+CIPSEND=1,57
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Receive from 433: aa 1d 11 11 3 0 14 59 46 50 0 14 1 0 0 34 c2 0 5 1 20 26 0 9 0 17 8 f 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Data receive from 1111 is : 50  0  14  1  0  0  34  c2  0  5  1  20  26  0  9  0  17  8  f  3 
+Time correct fream receive ok!!
+
+RTC configured by Server....
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,44
+length:44
+™#“©LSSETRESP:50,0009,02,000034,21,03
+
+
+UART3:AT+CIPSEND=1,44
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Receive from 433: aa 1d 11 11 3 0 9 2b 8e 50 0 9 2 0 0 34 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 ff 0 0 f9 ff ff ff f 0 0 0 0 0 0 0 fe 0 0 0 10 0
+Data receive from 1111 is : 50  0  9  2  0  0  34  0  3 
+SECTION SEND TEST:-50--0--9--2--0--0--34--0--3--0--0--0-
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+Send Over!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+Send Over!!
+AT+CNMI=1,2,0,0,0
+AT+CMGS="15116924685"
+System running!!
+DataCollectCount:1
+µ±«∞“∫Œª∏ﬂ: 2.172 √◊
+µ±«∞“∫Œª∏ﬂ: 2.171 √◊
+µ±«∞“∫Œª∏ﬂ: 2.169 √◊
+µ±«∞“∫Œª∏ﬂ: 2.169 √◊
+µ±«∞“∫Œª∏ﬂ: 2.174 √◊
+µ±«∞“∫Œª∏ﬂ: 2.174 √◊
+µ±«∞“∫Œª∏ﬂ: 2.173 √◊
+µ±«∞“∫Œª∏ﬂ: 2.173 √◊
+
+LevelDataCount:0
+--2.173000----2.173000----2.174000----2.174000----2.169000----2.169000----2.171000----2.172000--##2.169000####2.169000####2.171000####2.172000####2.173000####2.173000####2.174000####2.174000##
+**0.005000**
+##
+SoothData:2.172000
+Time: 2015-8-23 09:01:27
+
+≤È—ØµÁ≥ÿµÁ¡ø...
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:
++IPCLOSE: 1,2,119.254.103.80,2020
+
++NETCLOSE: 1
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,95
+length:95
+™{@LSLEVDATA:50,001F,01,000034,51,0F0601011259,000105A0,01,01,010917080F,020C400B,64,03
+
+
+UART3:AT+CIPSEND=1,95
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+Send Over!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,44
+length:44
+™L‰LSDATOVER:50,0009,02,000034,23,03
+
+
+UART3:AT+CIPSEND=1,44
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Receive from 433: aa 1d 11 11 3 0 d a0 e 50 0 9 2 0 0 34 22 ff ff ff ff 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 10 0 0 0 20 0
+Data receive from 1111 is : 50  0  9  2  0  0  34  22  ff  ff  ff  ff  3 
+“∫Œª ˝æ›Ω” ’≥…π¶!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+Send Over!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,44
+length:44
+™STALKOVER:50,0009,02,000034,00,03
+
+
+UART3:AT+CIPSEND=1,44
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+Send Over!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,57
+length:57
+™0ÂSLSSETREQU:50,0009,02,000034,01,0F0601011259,03
+
+
+UART3:AT+CIPSEND=1,57
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Receive from 433: aa 1d 11 11 3 0 14 14 77 50 0 14 1 0 0 34 c2 0 5 1 20 a 3 9 0 17 8 f 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 10 0 0 0 20 0 0 0 f9 ff ff ff 0 0 0 0 40 0 0 0 0 38 1 40 80 0 0 0 0 0 0 0 6d 57 0 8 98 44 0
+Data receive from 1111 is : 50  0  14  1  0  0  34  c2  0  5  1  20  a  3  9  0  17  8  f  3 
+Time correct fream receive ok!!
+
+RTC configured by Server....
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,44
+length:44
+™LSSETRESP:50,0009,02,000034,21,03
+
+
+UART3:AT+CIPSEND=1,44
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Receive from 433: aa 1d 11 11 3 0 9 2b 8e 50 0 9 2 0 0 34 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 30 0 0 0 f1 ff ff ff 2c 0 0 20 40 0 0 0 7 0 0 0 40 ff ff ff f 0 0 0 0 0 0 0 fe 0 0 0 10 0
+Data receive from 1111 is : 50  0  9  2  0  0  34  0  3 
+SECTION SEND TEST:-50--0--9--2--0--0--34--0--3--0--0--0-
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+Send Over!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+Send Over!!
+
+-----1----Next-----5a0------
+SLEEP OK!
+1min later wakeup!!
+≤Œ ˝…Ë÷√...
+
+-----1----Next-----5a0------
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+
+UART3:AT+NETOPEN=,,1
+Network opened
+
+OK
+AT+CIPHEAD=1
+OK
+AT+CIPSRIP=1
+OK
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+Connect ok
+
+OK
+
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,57
+length:57
+™0ÂSLSSETREQU:50,0009,02,000034,01,0F0601011259,03
+
+
+UART3:AT+CIPSEND=1,57
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Receive from 433: aa 1d 11 11 3 0 14 18 10 50 0 14 1 0 0 34 c2 0 5 1 20 1a 5 9 0 17 8 f 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Data receive from 1111 is : 50  0  14  1  0  0  34  c2  0  5  1  20  1a  5  9  0  17  8  f  3 
+Time correct fream receive ok!!
+
+≤Œ ˝…Ë÷√...
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+
+UART3:AT+NETOPEN=,,1
+Network opened
+
+OK
+AT+CIPHEAD=1
+OK
+AT+CIPSRIP=1
+OK
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+Connect ok
+
+OK
+
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,57
+length:57
+™0ÂSLSSETREQU:50,0009,02,000034,01,0F0601011259,03
+
+
+UART3:AT+CIPSEND=1,57
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Receive from 433: aa 1d 11 11 3 0 14 4d 23 50 0 14 1 0 0 34 c2 0 5 1 20 16 6 9 0 17 8 f 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Data receive from 1111 is : 50  0  14  1  0  0  34  c2  0  5  1  20  16  6  9  0  17  8  f  3 
+Time correct fream receive ok!!
+
+RTC configured by Server....
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,44
+length:44
+™#“©LSSETRESP:50,0009,02,000034,21,03
+
+
+UART3:AT+CIPSEND=1,44
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Receive from 433: aa 1d 11 11 3 0 9 2b 8e 50 0 9 2 0 0 34 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 30 0 0 0 f1 ff ff ff 2c 0 0 20 40 0 0 0 8 0 0 0 f9 ff ff ff f 0 0 0 0 0 0 0 0 0 0 0 f9 0
+Data receive from 1111 is : 50  0  9  2  0  0  34  0  3 
+SECTION SEND TEST:-50--0--9--2--0--0--34--0--3--0--0--0-
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+Send Over!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+Send Over!!
+AT+CNMI=1,2,0,0,0
+AT+CMGS="15116924685"
+System running!!
+DataCollectCount:1
+µ±«∞“∫Œª∏ﬂ: 2.171 √◊
+µ±«∞“∫Œª∏ﬂ: 2.171 √◊
+µ±«∞“∫Œª∏ﬂ: 2.171 √◊
+µ±«∞“∫Œª∏ﬂ: 2.171 √◊
+µ±«∞“∫Œª∏ﬂ: 2.172 √◊
+µ±«∞“∫Œª∏ﬂ: 2.172 √◊
+µ±«∞“∫Œª∏ﬂ: 2.172 √◊
+µ±«∞“∫Œª∏ﬂ: 2.172 √◊
+
+LevelDataCount:0
+--2.172000----2.172000----2.172000----2.172000----2.171000----2.171000----2.171000----2.171000--##2.171000####2.171000####2.171000####2.171000####2.172000####2.172000####2.172000####2.172000##
+**0.001000**
+##
+SoothData:2.171000
+Time: 2015-8-23 09:07:11
+
+≤È—ØµÁ≥ÿµÁ¡ø...
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:
++IPCLOSE: 1,2,119.254.103.80,2020
+
++NETCLOSE: 1
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 7,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 7,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 7,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 7,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 7,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,95
+length:95
+™—LSLEVDATA:50,001F,01,000034,51,0F0601011259,000105A0,01,01,070917080F,F1AA400A,64,03
+
+
+UART3:AT+CIPSEND=1,95
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+Send Over!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,44
+length:44
+™L‰LSDATOVER:50,0009,02,000034,23,03
+
+
+UART3:AT+CIPSEND=1,44
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Receive from 433: aa 1d 11 11 3 0 d a0 e 50 0 9 2 0 0 34 22 ff ff ff ff 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 0 0 0 10 0 0 0 20 0
+Data receive from 1111 is : 50  0  9  2  0  0  34  22  ff  ff  ff  ff  3 
+“∫Œª ˝æ›Ω” ’≥…π¶!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+Send Over!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,44
+length:44
+™#LSTALKOVER:50,0009,02,000034,00,03
+
+
+UART3:AT+CIPSEND=1,44
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+Send Over!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,57
+length:57
+™0ÂSLSSETREQU:50,0009,02,000034,01,0F0601011259,03
+
+
+UART3:AT+CIPSEND=1,57
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Receive from 433: aa 1d 11 11 3 0 14 95 ce 50 0 14 1 0 0 34 c2 0 5 1 20 36 8 9 0 17 8 f 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 0 0 0 10 0 0 0 20 0 0 0 f9 ff ff ff 0 0 0 0 40 0 0 0 0 38 1 40 80 0 0 0 0 0 0 0 6d 57 0 8 98 44 0
+Data receive from 1111 is : 50  0  14  1  0  0  34  c2  0  5  1  20  36  8  9  0  17  8  f  3 
+Time correct fream receive ok!!
+
+RTC configured by Server....
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,44
+length:44
+™“©LSSETRESP:50,0009,02,000034,21,03
+
+
+UART3:AT+CIPSEND=1,44
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Receive from 433: aa 1d 11 11 3 0 9 2b 8e 50 0 9 2 0 0 34 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 f9 ff ff ff 0 0 0 0 0 0 0 0 0 0 0 0 f9 0
+Data receive from 1111 is : 50  0  9  2  0  0  34  0  3 
+SECTION SEND TEST:-50--0--9--2--0--0--34--0--3--0--0--0-
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+Send Over!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+Send Over!!
+
+-----1----Next-----5a0------
+SLEEP OK!
+1min later wakeup!!
+≤Œ ˝…Ë÷√...
+
+-----1----Next-----5a0------
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+
+UART3:AT+NETOPEN=,,1
+Network opened
+
+OK
+AT+CIPHEAD=1
+OK
+AT+CIPSRIP=1
+OK
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+Connect ok
+
+OK
+
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,57
+length:57
+™ÂSLSSETREQU:50,0009,02,000034,01,0F0601011259,03
+
+
+UART3:AT+CIPSEND=1,57
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Receive from 433: aa 1d 11 11 3 0 14 6b be 50 0 14 1 0 0 34 c2 0 5 1 20 11 b 9 0 17 8 f 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Data receive from 1111 is : 50  0  14  1  0  0  34  c2  0  5  1  20  11  b  9  0  17  8  f  3 
+Time correct fream receive ok!!
+
+RTC configured by Server....
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,44
+length:44
+™#“©LSSETRESP:50,0009,02,000034,21,03
+
+
+UART3:AT+CIPSEND=1,44
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Receive from 433: aa 1d 11 11 3 0 9 2b 8e 50 0 9 2 0 0 34 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 0 0 0 f1 ff ff ff 0 38 1 40 40 0 0 0 7 0 0 0 f9 ff ff ff 0 0 0 0 0 0 0 0 f 0 0 0 10 0
+Data receive from 1111 is : 50  0  9  2  0  0  34  0  3 
+SECTION SEND TEST:-50--0--9--2--0--0--34--0--3--0--0--0-
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+Send Over!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+Send Over!!
+AT+CNMI=1,2,0,0,0
+AT+CMGS="15116924685"
+System running!!
+DataCollectCount:1
+µ±«∞“∫Œª∏ﬂ: 2.173 √◊
+µ±«∞“∫Œª∏ﬂ: 2.173 √◊
+µ±«∞“∫Œª∏ﬂ: 2.173 √◊
+µ±«∞“∫Œª∏ﬂ: 2.173 √◊
+µ±«∞“∫Œª∏ﬂ: 2.173 √◊
+µ±«∞“∫Œª∏ﬂ: 2.173 √◊
+µ±«∞“∫Œª∏ﬂ: 2.173 √◊
+µ±«∞“∫Œª∏ﬂ: 2.173 √◊
+
+LevelDataCount:0
+--2.173000----2.173000----2.173000----2.173000----2.173000----2.173000----2.173000----2.173000--##2.173000####2.173000####2.173000####2.173000####2.173000####2.173000####2.173000####2.173000##
+**0.000000**
+##
+SoothData:2.173000
+Time: 2015-8-23 09:12:06
+
+≤È—ØµÁ≥ÿµÁ¡ø...
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,95
+length:95
+™V)íLSLEVDATA:50,001F,01,000034,51,0F0601011259,000105A0,01,01,0C0917080F,126F400B,64,03
+
+
+UART3:AT+CIPSEND=1,95
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+Send Over!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,44
+length:44
+™#L‰LSDATOVER:50,0009,02,000034,23,03
+
+
+UART3:AT+CIPSEND=1,44
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Receive from 433: aa 1d 11 11 3 0 d a0 e 50 0 9 2 0 0 34 22 ff ff ff ff 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 a 0 0 0 0 0 0 0 20 0
+Data receive from 1111 is : 50  0  9  2  0  0  34  22  ff  ff  ff  ff  3 
+“∫Œª ˝æ›Ω” ’≥…π¶!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+Send Over!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,44
+length:44
+™STALKOVER:50,0009,02,000034,00,03
+
+
+UART3:AT+CIPSEND=1,44
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+Send Over!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,57
+length:57
+™LSSETREQU:50,0009,02,000034,01,0F0601011259,03
+
+
+UART3:AT+CIPSEND=1,57
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Receive from 433: aa 1d 11 11 3 0 14 15 cb 50 0 14 1 0 0 34 c2 0 5 1 20 39 c 9 0 17 8 f 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 a 0 0 0 0 0 0 0 20 0 0 0 f9 ff ff ff 0 38 1 40 40 0 0 0 0 38 1 40 80 0 0 0 0 0 0 0 6d 57 0 8 8c 44 0
+Data receive from 1111 is : 50  0  14  1  0  0  34  c2  0  5  1  20  39  c  9  0  17  8  f  3 
+Time correct fream receive ok!!
+
+RTC configured by Server....
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,44
+length:44
+™“©LSSETRESP:50,0009,02,000034,21,03
+
+
+UART3:AT+CIPSEND=1,44
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Receive from 433: aa 1d 11 11 3 0 9 2b 8e 50 0 9 2 0 0 34 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 f9 ff ff ff f 0 0 0 0 0 0 0 0 0 0 0 10 0
+Data receive from 1111 is : 50  0  9  2  0  0  34  0  3 
+SECTION SEND TEST:-50--0--9--2--0--0--34--0--3--0--0--0-
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+Send Over!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+Send Over!!
+
+-----1----Next-----5a0------
+SLEEP OK!
+1min later wakeup!!
+≤Œ ˝…Ë÷√...
+
+-----1----Next-----5a0------
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 8,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+
+UART3:AT+NETOPEN=,,1
+Network opened
+
+OK
+AT+CIPHEAD=1
+OK
+AT+CIPSRIP=1
+OK
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+Connect ok
+
+OK
+
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,57
+length:57
+™ÂSLSSETREQU:50,0009,02,000034,01,0F0601011259,03
+
+
+UART3:AT+CIPSEND=1,57
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Receive from 433: aa 1d 11 11 3 0 14 e7 ba 50 0 14 1 0 0 34 c2 0 5 1 20 e f 9 0 17 8 f 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Data receive from 1111 is : 50  0  14  1  0  0  34  c2  0  5  1  20  e  f  9  0  17  8  f  3 
+Time correct fream receive ok!!
+
+RTC configured by Server....
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,44
+length:44
+™#“©LSSETRESP:50,0009,02,000034,21,03
+
+
+UART3:AT+CIPSEND=1,44
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Receive from 433: aa 1d 11 11 3 0 9 2b 8e 50 0 9 2 0 0 34 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 30 0 0 0 f1 ff ff ff 0 0 0 0 40 0 0 0 4 0 0 0 f9 ff ff ff f0 0 0 0 ff 0 0 0 b 0 0 0 f9 0
+Data receive from 1111 is : 50  0  9  2  0  0  34  0  3 
+SECTION SEND TEST:-50--0--9--2--0--0--34--0--3--0--0--0-
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+Send Over!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+Send Over!!
+AT+CNMI=1,2,0,0,0
+AT+CMGS="15116924685"
+System running!!
+DataCollectCount:1
+µ±«∞“∫Œª∏ﬂ: 2.174 √◊
+µ±«∞“∫Œª∏ﬂ: 2.174 √◊
+µ±«∞“∫Œª∏ﬂ: 2.174 √◊
+µ±«∞“∫Œª∏ﬂ: 2.174 √◊
+µ±«∞“∫Œª∏ﬂ: 2.175 √◊
+µ±«∞“∫Œª∏ﬂ: 2.174 √◊
+µ±«∞“∫Œª∏ﬂ: 2.174 √◊
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,95
+length:95
+™VaLSLEVDATA:50,001F,01,000034,51,0F0601011259,000105A0,01,01,100917080F,22D1400B,64,03
+
+
+UART3:AT+CIPSEND=1,95
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+Send Over!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,44
+length:44
+™L‰LSDATOVER:50,0009,02,000034,23,03
+
+
+UART3:AT+CIPSEND=1,44
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Receive from 433: aa 1d 11 11 3 0 d a0 e 50 0 9 2 0 0 34 22 ff ff ff ff 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 0 0 0 20 0
+Data receive from 1111 is : 50  0  9  2  0  0  34  22  ff  ff  ff  ff  3 
+“∫Œª ˝æ›Ω” ’≥…π¶!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+Send Over!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,44
+length:44
+™LSTALKOVER:50,0009,02,000034,00,03
+
+
+UART3:AT+CIPSEND=1,44
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+Send Over!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,57
+length:57
+™0ÂSLSSETREQU:50,0009,02,000034,01,0F0601011259,03
+
+
+UART3:AT+CIPSEND=1,57
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Receive from 433: aa 1d 11 11 3 0 14 94 56 50 0 14 1 0 0 34 c2 0 5 1 20 36 10 9 0 17 8 f 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 0 0 0 20 0 0 0 f9 ff ff ff 0 0 0 0 40 0 0 0 0 38 1 40 80 0 0 0 0 0 0 0 6d 57 0 8 64 57 0
+Data receive from 1111 is : 50  0  14  1  0  0  34  c2  0  5  1  20  36  10  9  0  17  8  f  3 
+Time correct fream receive ok!!
+
+RTC configured by Server....
+AT+NETOPEN?
+AT+NETOPEN?
+
+≤Œ ˝…Ë÷√...
+
+-----1----Next-----5a0------
+AT+CSQ
+
+UART3:
+START
+
++STIN: 25
+
++STIN: 25
+
++CPIN: READY
+
+SMS DONE
+
++STIN: 21
+
+PB DONE
+AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CSQ
+
+UART3:AT+CSQ
++CSQ: 9,99
+
+OK
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMM
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+ Multi GPRS Start!
+AT+NETOPEN=,,1
+AT+CIPHEAD=1
+AT+CIPSRIP=1
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+AT+CNMI=1,2,0,0,0
+AT+CMGS="15116924685"
+System running!!
+
+UART3:AT+NETOPEN=,,1
+Network opened
+
+OK
+AT+CIPHEAD=1
+OK
+AT+CIPSRIP=1
+OK
+AT+CIPOPEN=1,"TCP","119.254.103.80",2020
+Connect ok
+
+OK
+AT+CNMI=1,2,0,0,0
+OK
+AT+CMGS="15116924685"
+> 
+> 
+> 
+
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,57
+length:57
+™ÂSLSSETREQU:50,0009,02,000034,01,0F0601011259,03
+
+
+UART3:AT+CIPSEND=1,57
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Receive from 433: aa 1d 11 11 3 0 14 41 6 50 0 14 1 0 0 34 c2 0 5 1 20 35 11 9 0 17 8 f 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Data receive from 1111 is : 50  0  14  1  0  0  34  c2  0  5  1  20  35  11  9  0  17  8  f  3 
+Time correct fream receive ok!!
+
+RTC configured by Server....
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,44
+length:44
+™“©LSSETRESP:50,0009,02,000034,21,03
+
+
+UART3:AT+CIPSEND=1,44
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Receive from 433: aa 1d 11 11 3 0 9 2b 8e 50 0 9 2 0 0 34 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 0 0 0 f1 ff ff ff 0 0 0 0 40 0
+Data receive from 1111 is : 50  0  9  2  0  0  34  0  3 
+SECTION SEND TEST:-50--0--9--2--0--0--34--0--3--0--0--0-
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+Send Over!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+Send Over!!
+
+UART3:
++CMT: "+8615116924685","","15/08/23,09:18:20+32"
+reset
+
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+µ⁄∂˛¥ŒΩ” ’≤ÈµΩ ˝æ›!!
+DataCollectCount:1
+µ±«∞“∫Œª∏ﬂ: 2.171 √◊
+µ±«∞“∫Œª∏ﬂ: 2.170 √◊
+µ±«∞“∫Œª∏ﬂ: 2.171 √◊
+µ±«∞“∫Œª∏ﬂ: 2.171 √◊
+µ±«∞“∫Œª∏ﬂ: 2.171 √◊
+µ±«∞“∫Œª∏ﬂ: 2.171 √◊
+µ±«∞“∫Œª∏ﬂ: 2.171 √◊
+µ±«∞“∫Œª∏ﬂ: 2.169 √◊
+
+LevelDataCount:0
+--2.169000----2.171000----2.171000----2.171000----2.171000----2.171000----2.170000----2.171000--##2.169000####2.170000####2.171000####2.171000####2.171000####2.171000####2.171000####2.171000##
+**0.002000**
+##
+SoothData:2.170000
+Time: 2015-8-23 09:18:40
+
+≤È—ØµÁ≥ÿµÁ¡ø...
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,95
+length:95
+™VÄ§LSLEVDATA:50,001F,01,000034,51,0F0601011259,000105A0,01,01,120917080F,E148400A,64,03
+
+
+UART3:AT+CIPSEND=1,95
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+Send Over!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,44
+length:44
+™‰LSDATOVER:50,0009,02,000034,23,03
+
+
+UART3:AT+CIPSEND=1,44
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Receive from 433: aa 1d 11 11 3 0 d a0 e 50 0 9 2 0 0 34 22 ff ff ff ff 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 40 0 0 0 3 0
+Data receive from 1111 is : 50  0  9  2  0  0  34  22  ff  ff  ff  ff  3 
+“∫Œª ˝æ›Ω” ’≥…π¶!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+Send Over!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,44
+length:44
+™STALKOVER:50,0009,02,000034,00,03
+
+
+UART3:AT+CIPSEND=1,44
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+Send Over!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,57
+length:57
+™LSSETREQU:50,0009,02,000034,01,0F0601011259,03
+
+
+UART3:AT+CIPSEND=1,57
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Receive from 433: aa 1d 11 11 3 0 14 7e 25 50 0 14 1 0 0 34 c2 0 5 1 20 21 13 9 0 17 8 f 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 40 0 0 0 3 0 0 0 f9 ff ff ff 0 0 0 0 0 0 0 0 1d 0 0 0 10 0 0 0 20 0 0 0 f9 ff ff ff 0 0 0
+Data receive from 1111 is : 50  0  14  1  0  0  34  c2  0  5  1  20  21  13  9  0  17  8  f  3 
+Time correct fream receive ok!!
+
+RTC configured by Server....
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,44
+length:44
+™LSSETRESP:50,0009,02,000034,21,03
+
+
+UART3:AT+CIPSEND=1,44
+>™
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+
+Send Over!!
+AT+NETOPEN?
+AT+NETOPEN?
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Ω” ’ ˝æ›Ω‚ŒˆÕÍ≥…!!
+AT+CIPSEND=1,44
+length:44
+™#“©LSSETRESP:50,0009,02,000034,21,03
+
+
+UART3:AT+CIPSEND=1,44
++IP ERROR: TCP busy
+
+ERROR
+
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+AT+NETCLOSE
+AT+CPOF
+AT+CSQ
+
+UART3:AT+CIPSEND=1,44
++IP ERROR: TCP busy
+
+ERROR
+AT+NETCLOSE
++IP ERROR: Netclose failed for socket opened
+
+ERROR
+AT+CPOF
+OK
+
++CIPSEND: 44,0
+
+
+
++IPCLOSE: 1,2,119.254.103.80,2020
+
++NETCLOSE: 1
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+AT+NETCLOSE
+AT+CPOF
+AT+CSQ
+
+UART3:
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 9,99
+
+OK
+CLOSE
++IP ERROR: Netclose failed for socket opened
+
+ERROR
+AT+CPOF
+OK
+
++CIPSEND: 44,0
+
+
+
++IPCLOSE: 1,2,119.254.103.80,2020
+
++NETCLOSE: 1
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMMAT+NETCLOSE
+AT+CPOF
+AT+CSQ
+
+UART3:
+
+SMS DONE
+
++STIN: 21
+AT+CSQ
++CSQ: 9,99
+
+OK
+AT+NETCLOSE
++IP ERROR: Network is already closed
+
+ERROR
+AT+CPOF
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+LLLLLLLLLLMMMMMMAT+NETCLOSE
+AT+CPOF
+AT+CSQ
+
+UART3:
++IP ERROR: Network is already closed
+
+ERROR
+AT+CPOF
+OK
+
+PB DONE
+
+
+GPRS Net Searching...
+
+Ω” ’ ˝æ›Ω‚Œˆ!!
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Receive from 433: aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 e8 3 0 20 1 0 0 0 27 0 0 0 0 0 0 0 81 18 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 4 0 20 0 0 0 0 0 0 0 0 0 0 0 0 75 2d 0 8 aa 1d 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+µ⁄∂˛¥Œ≤È’“£¨µ±«∞≤È’“Œª÷√: 222
+
+Re
